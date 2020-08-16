@@ -18,11 +18,11 @@ export default class Header extends Component {
                 </nav>
                 <div className="row banner">
                     <div className="banner-text">
-                        {/* <img className="header-logo" src="images/flame.png" /> */}
-                        <iframe src={flame} className="giphy-embed" > </iframe>
+                        <iframe src={flame} className="giphy-embed" />
                         <h1 className="responsive-headline">Hello, I'm {resumeData.name}.</h1>
-                        <h3>I am a {resumeData.role} who is aiming to become a {resumeData.dream}, based in {resumeData.location} <br />
-                            Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+                        <h3 className="header-bio">I am a {resumeData.role} who is aiming to become a {resumeData.dream}, based in {resumeData.location} <br />
+                            Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.
+                        </h3>
                         <hr />
                         <ul className="social">
                             <li><a href="https://twitter.com/myatthu_ko" target="_blank"><i className="fa fa-twitter" /></a></li>
@@ -38,5 +38,3 @@ export default class Header extends Component {
         )
     }
 }
-
-{/* <iframe src="https://giphy.com/embed/hpWpySH0J2QoIwIWlx" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> */ }
