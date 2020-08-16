@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const about = () => {
     return (
@@ -7,14 +7,22 @@ export const about = () => {
                 <div className="three columns">
                     <img className="profile-pic" src="images/profilepic.png" alt="profile" />
                 </div>
-                <div className="nine columns main-col">
+                <div className="seven columns main-col">
                     <h2>About Me</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                    <p className="bio">
+                        Hey there, I am Myat Thu Ko, you can call me Myat. I am a computer science student in New York, NY and
+                        am originally from<a href="https://en.wikipedia.org/wiki/Myanmar" target="_blank"> Myanmar</a>.
+                        I am a dedicated student working towards my dream of becoming a software engineer at FAANG.
+                        <br />
+                        <h2>What I did and am currently doing</h2>
+                        Currently, I am part of the IT team in <a href="https://wecodeucate.org/" target="_blank">Codeucate (Chicago, US)</a> and trying to solidify my knowledge on React and SwiftUI.
+                        During 2020 quarantine, I attended multiple virtual hackathons where I have had met a lot of new friends and gained new experiences.
+                        <br />
+                        <h2>Family</h2>
+                        I am the eldest sibling in my family and have one little sister.
+                        My family acts as a big part of who I am and they play a major role in my life.
+                        My dream is always to support them where my parents don't have to work after 60 years old.
+                        <br />
                     </p>
                     <div className="row">
                         <div className="columns contact-details">
@@ -38,6 +46,10 @@ export const about = () => {
                             </p>
                         </div>
                     </div>
+                    <h2> Scroll down to see my <a className="smoothscroll" href="#resume">Resume</a> </h2>
+                </div>
+                <div className="two columns">
+                    <img className="country" src="images/myanmar.png" alt="profile" />
                 </div>
             </div>
         </section>

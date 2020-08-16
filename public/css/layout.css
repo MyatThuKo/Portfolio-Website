@@ -198,23 +198,23 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #222222;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #7A7A7A; }
-#about a:hover, #about a:focus { color: #fff; }
+#about a, #about a:visited  { color: rgb(0, 105, 224); }
+#about a:hover, #about a:focus { color: white; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
-   margin-bottom: 12px;
+   color: white;
+   margin-top: 20px;
 }
 #about p {
-   line-height: 30px;
-   color: #7A7A7A;
+   line-height: 25px;
+   color: #c9c9c9;
 }
 #about .profile-pic {
    position: relative;
@@ -222,6 +222,14 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    height: 250px;
    border-radius: 100%;
 }
+#about .country {
+   position: relative;
+   padding-top: 50px;
+   width: 125px;
+   height: 125px;
+   border-radius: 100%;
+}
+
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -546,7 +554,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #222222;
    font-size: 14px;
    text-align: center;
    position: relative;
