@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import flame from "../header/flame.gif";
 
 export default class Header extends Component {
     render() {
@@ -17,7 +18,8 @@ export default class Header extends Component {
                 </nav>
                 <div className="row banner">
                     <div className="banner-text">
-                        <img className="header-logo" src="images/flame.png" />
+                        {/* <img className="header-logo" src="images/flame.png" /> */}
+                        <iframe src={flame} className="giphy-embed" > </iframe>
                         <h1 className="responsive-headline">Hello, I'm {resumeData.name}.</h1>
                         <h3>I am a {resumeData.role} who is aiming to become a {resumeData.dream}, based in {resumeData.location} <br />
                             Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
@@ -36,3 +38,5 @@ export default class Header extends Component {
         )
     }
 }
+
+{/* <iframe src="https://giphy.com/embed/hpWpySH0J2QoIwIWlx" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> */ }
