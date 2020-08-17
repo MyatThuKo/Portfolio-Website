@@ -5,7 +5,7 @@ export const about = () => {
         <section id="about">
             <div className="row">
                 <div className="three columns">
-                    <img className="profile-pic" src="images/profilepic.png" alt="profile" />
+                    <img className="profile-pic" src="images/profilepic.jpg" alt="profile" />
                 </div>
                 <div className="seven columns main-col">
                     <h2>About Me</h2>
@@ -49,7 +49,7 @@ export const about = () => {
                     <h2> Scroll down to see my <a className="smoothscroll" href="#resume">Resume</a> </h2>
                 </div>
                 <div className="two columns">
-                    <img className="country" src="images/myanmar.png" alt="profile" />
+                    <img className="profile-pic" src="images/myanmar.png" alt="profile" />
                 </div>
             </div>
         </section>

@@ -222,13 +222,6 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    height: 250px;
    border-radius: 100%;
 }
-#about .country {
-   position: relative;
-   padding-top: 50px;
-   width: 125px;
-   height: 125px;
-   border-radius: 100%;
-}
 
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -305,6 +298,25 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    margin-top: 6px;
 }
 
+#resume .flags {
+   margin-top: 25px;
+}
+
+#resume .flags p {
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 20px;
+   color: #0f0f0f;
+}
+
+#resume .language-flag {
+   height: 150px;
+   width: 150px;
+   border-radius: 100%;
+   margin-top: 15px;
+   margin-bottom: 5px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -316,7 +328,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 50px;
    list-style: none;
 }
 .bars li {
@@ -342,92 +354,162 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #08b0da;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+/* Soft Skills */
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.communication {
+   width: 90%;
+   -moz-animation: communication 2s ease;
+   -webkit-animation: communication 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.problem-solving {
+   width: 75%;
+   -moz-animation: problem-solving 2s ease;
+   -webkit-animation: problem-solving 2s ease;
 }
-.wordpress {
+.adaptability {
+   width: 95%;
+   -moz-animation: adaptability 2s ease;
+   -webkit-animation: adaptability 2s ease;
+}
+.time-management {
+   width: 75%;
+   -moz-animation: time-management 2s ease;
+   -webkit-animation: time-management 2s ease;
+}
+.teamwork {
+   width: 90%;
+   -moz-animation: teamwork 2s ease;
+   -webkit-animation: teamwork 2s ease;
+}
+
+@-moz-keyframes communication {
+0%   { width: 0px;  }
+100% { width: 90%;  }
+}
+@-moz-keyframes problem-solving {
+0%   { width: 0px;  }
+100% { width: 75%;  }
+}
+@-moz-keyframes adaptability {
+0%   { width: 0px;  }
+100% { width: 95%;  }
+}
+@-moz-keyframes time-management {
+0%   { width: 0px;  }
+100% { width: 75%;  }
+}
+@-moz-keyframes teamwork {
+0%   { width: 0px;  }
+100% { width: 90%;  }
+}
+
+@-webkit-keyframes communication {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+}
+@-webkit-keyframes problem-solving {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+}
+@-webkit-keyframes adaptability {
+   0%   { width: 0px;  }
+   100% { width: 95%;  }
+}
+@-webkit-keyframes time-management {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+}
+@-webkit-keyframes teamwork {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+}
+
+/* Programming Languages */
+.cpp {
+  	width: 75%;
+  	-moz-animation: cpp 2s ease;
+  	-webkit-animation: cpp 2s ease;
+}
+.swiftui {
   	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: swiftui 2s ease;
+  	-webkit-animation: swiftui 2s ease;
+}
+.react {
+  	width: 50%;
+  	-moz-animation: react 2s ease;
+  	-webkit-animation: react 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 75%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.python {
+  	width: 40%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes cpp {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 75%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes swiftui {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 50%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes react {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+
+@-webkit-keyframes cpp {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes swiftui {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
+@-webkit-keyframes react {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 40%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -442,8 +524,8 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #636363; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #about a:visited  { color: rgb(0, 105, 224); }
+#contact a:hover, #about a:focus { color: white; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;

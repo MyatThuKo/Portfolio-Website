@@ -20,7 +20,7 @@ export default class Header extends Component {
                     <div className="banner-text">
                         <iframe src={flame} className="giphy-embed" />
                         <h1 className="responsive-headline">Hello, I'm {resumeData.name}.</h1>
-                        <h3 className="header-bio">I am a {resumeData.role} who is aiming to become a {resumeData.dream}, based in {resumeData.location} <br />
+                        <h3 className="header-bio">I am a {resumeData.role} who is aiming to become a {resumeData.dream} and is currently residing in {resumeData.location}. <br />
                             Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.
                         </h3>
                         <hr />
