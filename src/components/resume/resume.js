@@ -49,9 +49,9 @@ export const resume = () => {
                             <p className="info">Frontend Developer Intern <span>•</span> <em className="date">17 July, 2020 - 14 August, 2020</em></p>
                             <p style={{ textAlign: 'left' }}>
                                 <li> Build web pages that are responsive and user-friendly using React.js </li>
-                                <li> Act as a liason between the general Frontend Team and the other frontend and backend teams, and working with both the interactivity and layout team to implement features </li>
+                                <li> Act as a liaison between the general Frontend Team and the other frontend and backend teams, and working with both the interactivity and layout team to implement features </li>
                                 <li> Support other team members with building necessary web pages and fixing the bugs in the website </li>
-                                <li> Collarborate with the backend team to ensure the website is functioning well and efficiently </li>
+                                <li> Collaborate with the backend team to ensure the website is functioning well and efficiently </li>
                             </p>
                         </div>
                     </div>
