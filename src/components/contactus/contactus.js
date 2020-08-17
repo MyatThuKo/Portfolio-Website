@@ -58,9 +58,7 @@ export const contactus = () => {
                             <h4>My Contact</h4>
                             <p className="address">
                                 <span>Myat Thu Ko</span><br />
-                                <span>78 Bay 13th Street<br />
-                                    Brooklyn, NY 11214 US
-                                </span><br />
+                                <span>New York, NY</span><br />
                                 <span>(347)707-3462</span><br />
                                 <span> <a href="mailto:nymyatthuko@gmail.com"> nymyatthuko@gmail.com </a></span> <br />
                                 <span><a href="https://myatthuko.com/" target="_blank"> myatthuko.com </a></span>

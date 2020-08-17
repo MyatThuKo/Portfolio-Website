@@ -17,6 +17,7 @@ export const resume = () => {
                             </p>
                         </div>
                     </div>
+                    <hr />
                     <div className="row item">
                         <div className="twelve columns">
                             <h3>Borough of Manhattan Community College, CUNY</h3>
@@ -55,6 +56,7 @@ export const resume = () => {
                             </p>
                         </div>
                     </div>
+                    <hr />
                     <div className="row item">
                         <div className="twelve columns">
                             <h3>Apple Fifth Ave.</h3>
@@ -97,7 +99,7 @@ export const resume = () => {
                     </div>
                 </div>
                 <div className="four columns header-col">
-                    <h1><span>Language</span></h1>
+                    <h1><span>Languages</span></h1>
                     <div className="flags">
                         <img src="/images/english.png" className="language-flag" alt="English" />
                         <p>

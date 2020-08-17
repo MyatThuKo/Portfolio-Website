@@ -212,9 +212,14 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    color: white;
    margin-top: 20px;
 }
+#about h2 span {
+   border-bottom: 4px solid #006cc5;
+}
+
 #about p {
    line-height: 25px;
-   color: #c9c9c9;
+   color: #e2dddd;
+   font-size: 17px;
 }
 #about .profile-pic {
    position: relative;
@@ -242,28 +247,38 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    font-size: 20px;
 }
 
-
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #313131;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #313131; }
+#resume p, h3, h5 {
+   color: white;
+}
+
+#resume a, #resume a:visited  { color: white; }
 #resume a:hover, #resume a:focus { color: #11ABB0; }
+
+#resume hr {
+   border-top: 2px dashed white;
+   margin: auto;
+   padding-bottom: 25px;
+}
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   color: white;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #006cc5;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -280,7 +295,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: white;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -298,6 +313,10 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    margin-top: 6px;
 }
 
+#resume li {
+   font-size: 18px;
+}
+
 #resume .flags {
    margin-top: 25px;
 }
@@ -306,7 +325,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    text-align: center;
    font-family: 'Courier New', Courier, monospace;
    font-size: 20px;
-   color: #0f0f0f;
+   color: white;
 }
 
 #resume .language-flag {
@@ -340,7 +359,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #ffffff;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -548,8 +567,11 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: #ffffff;
    margin-bottom: 6px;
+}
+#contact p {
+   color: white;
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
