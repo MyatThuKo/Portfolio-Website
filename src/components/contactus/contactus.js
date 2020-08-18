@@ -33,7 +33,7 @@ export const contactus = () => {
                                     <input type="text" size={35} id="contactEmail" name="contactEmail" placeholder="Your Email" />
                                 </div>
                                 <div>
-                                    <label htmlFor="contactSubject">Subject</label>
+                                    <label htmlFor="contactSubject">Subject<span className="required">*</span></label>
                                     <input type="text" size={35} id="contactSubject" name="contactSubject" placeholder="Subject" />
                                 </div>
                                 <div>
@@ -48,9 +48,9 @@ export const contactus = () => {
                                 </div>
                             </fieldset>
                         </form>
-                        <div id="message-warning"> Error boy</div>
+                        <div id="message-warning">This contact form is still under construction. Please try again later. Thank you.</div>
                         <div id="message-success">
-                            <i className="fa fa-check" />Your message was sent, thank you!<br />
+                            <i className="fa fa-check" />Thank you for contacting.<br />
                         </div>
                     </div>
                     <aside className="four columns footer-widgets">
@@ -61,7 +61,7 @@ export const contactus = () => {
                                 <span>New York, NY</span><br />
                                 <span>(347)707-3462</span><br />
                                 <span> <a href="mailto:nymyatthuko@gmail.com"> nymyatthuko@gmail.com </a></span> <br />
-                                <span><a href="https://myatthuko.com/" target="_blank"> myatthuko.com </a></span>
+                                <span><a href="https://myatthuko.com/" target="_blank">https://www.myatthuko.com/</a></span>
                             </p>
                         </div>
                     </aside>
