@@ -4,9 +4,10 @@ export const contactus = () => {
     return (
         <div>
             <section id="contact">
+                <h1><span>Get In Touch</span></h1>
                 <div className="row section-head">
                     <div className="two columns header-col">
-                        <h1><span>Get In Touch.</span></h1>
+                        <h2><span>Get In Touch.</span></h2>
                     </div>
                     <div className="ten columns">
                         <p className="lead">
@@ -48,14 +49,14 @@ export const contactus = () => {
                                 </div>
                             </fieldset>
                         </form>
-                        <div id="message-warning">This contact form is still under construction. Please try again later. Thank you.</div>
+                        <div id="message-warning">This contact form is still under construction. Sorry for the inconvenience.</div>
                         <div id="message-success">
                             <i className="fa fa-check" />Thank you for contacting.<br />
                         </div>
                     </div>
                     <aside className="four columns footer-widgets">
                         <div className="widget widget_contact">
-                            <h4>My Contact</h4>
+                            <h3><span>My Contact Info</span></h3>
                             <p className="address">
                                 <span>Myat Thu Ko</span><br />
                                 <span>New York, NY</span><br />

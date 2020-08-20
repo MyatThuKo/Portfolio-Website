@@ -3,9 +3,10 @@ import React from 'react'
 export const resume = () => {
     return (
         <section id="resume">
+            <h1><span>Resume</span></h1>
             <div className="row education">
                 <div className="three columns header-col">
-                    <h1><span>Education</span></h1>
+                    <h2><span>Education</span></h2>
                 </div>
                 <div className="nine columns main-col">
                     <div className="row item">
@@ -39,7 +40,7 @@ export const resume = () => {
 
             <div className="row work">
                 <div className="three columns header-col">
-                    <h1><span>Work</span></h1>
+                    <h2><span>Work</span></h2>
                 </div>
                 <div className="nine columns main-col">
                     <div className="row item">
@@ -74,7 +75,7 @@ export const resume = () => {
             </div>
             <div className="row skill">
                 <div className="four columns header-col">
-                    <h1><span>Soft Skills</span></h1>
+                    <h2><span>Soft Skills</span></h2>
                     <div className="bars">
                         <ul className="skills">
                             <li><span className="bar-expand communication" /><em>Communication</em></li>
@@ -86,7 +87,7 @@ export const resume = () => {
                     </div>
                 </div>
                 <div className="four columns header-col">
-                    <h1><span>Technical Skills</span></h1>
+                    <h2><span>Technical Skills</span></h2>
                     <div className="bars">
                         <ul className="skills">
                             <li><span className="bar-expand html5" /><em>HTML5</em></li>
@@ -99,7 +100,7 @@ export const resume = () => {
                     </div>
                 </div>
                 <div className="four columns header-col">
-                    <h1><span>Languages</span></h1>
+                    <h2><span>Languages</span></h2>
                     <div className="flags">
                         <img src="/images/english.png" className="language-flag" alt="English" />
                         <p>

@@ -198,7 +198,10 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #222222;
+   /* background: #222222; */
+   background: #000000;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #000000, #003558);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #000000, #003558); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -252,10 +255,25 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #313131;
+   background: #313131;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #003558, #313131);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #003558, #313131); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+}
+
+#resume h1 {
+   font: 50px/56px 'librebaskerville-italic', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: white;
+   padding-bottom: 50px;
+}
+
+#resume h1 span {
+   border-bottom: 3px solid #006cc5;
 }
 
 #resume p, h3, h5 {
@@ -271,13 +289,13 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    padding-bottom: 25px;
 }
 
-#resume h1 {
+#resume h2 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    color: white;
 }
-#resume h1 span {
+#resume h2 span {
    border-bottom: 3px solid #006cc5;
    padding-bottom: 6px;
 }
@@ -536,25 +554,40 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   /* background: #191919; */
+   background: #313131;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #313131, #1a1717);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #313131, #1a1717); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
 
+#contact h1 {
+   font: 50px/56px 'librebaskerville-italic', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: white;
+   padding-bottom: 50px;
+}
+
+#contact h1 span {
+   border-bottom: 3px solid #006cc5;
+}
+
 #contact a, #about a:visited  { color: rgb(0, 105, 224); }
 #contact a:hover, #about a:focus { color: white; }
 
-#contact h1 {
+#contact h2 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact h1 span { display: none; }
-#contact h1:before {
+#contact h2 span { display: none; }
+#contact h2:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
 	padding-right: 10px;
@@ -565,11 +598,16 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    color: #ebeeee;
 }
 
-#contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
+#contact h3 {
+   font: 24px/30px 'librebaskerville-italic', Times, serif;
    color: #ffffff;
-   margin-bottom: 6px;
+   padding-bottom: 10px;
 }
+#contact h3 span {
+   border-bottom: 3px solid #006cc5;
+   padding-bottom: 5px;
+}
+
 #contact p {
    color: white;
 }
@@ -658,7 +696,10 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #222222;
+   /* color: #0d0d0d; */
+   background: #1a1717;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #1a1717, #0d0d0d);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #1a1717, #0d0d0d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    font-size: 14px;
    text-align: center;
    position: relative;
