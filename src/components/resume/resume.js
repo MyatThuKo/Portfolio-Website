@@ -47,8 +47,7 @@ export const resume = () => {
                         <div className="twelve columns">
                             <h3><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></h3>
                             <h5 className="location"> Remote </h5>
-                            <p className="info">Software Developer <span>•</span> <em className="date"> August 2020 - Present </em></p>
-                            <p className="info">Frontend Developer Intern <span>•</span> <em className="date">17 July, 2020 - 14 August, 2020</em></p>
+                            <p className="info">Frontend Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
                             <p style={{ textAlign: 'left' }}>
                                 <li> Build web pages that are responsive and user-friendly using React.js </li>
                                 <li> Act as a liaison between the general Frontend Team and the other frontend and backend teams, and working with both the interactivity and layout team to implement features </li>
