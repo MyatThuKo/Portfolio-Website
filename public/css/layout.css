@@ -331,8 +331,10 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    margin-top: 6px;
 }
 
-#resume li {
-   font-size: 18px;
+#resume .description {
+   font: 18px/24px 'Courier New', Courier, monospace;
+   font-weight: 300;
+   text-align: left;
 }
 
 #resume .flags {

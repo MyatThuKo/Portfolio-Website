@@ -48,9 +48,9 @@ export const resume = () => {
                             <h3><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></h3>
                             <h5 className="location"> Remote </h5>
                             <p className="info">Frontend Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
-                            <p style={{ textAlign: 'left' }}>
-                                <li> Build web pages that are responsive and user-friendly using React.js </li>
-                                <li> Act as a liaison between the general Frontend Team and the other frontend and backend teams, and working with both the interactivity and layout team to implement features </li>
+                            <p className="description">
+                                <li> Responsible for building web pages that are responsive and user-friendly using React.js. </li>
+                                <li> Act as a liaison between the general frontend team and the other frontend and backend teams and work with both the interactivity and layout team to implement features </li>
                                 <li> Support other team members with building necessary web pages and fixing the bugs in the website </li>
                                 <li> Collaborate with the backend team to ensure the website is functioning well and efficiently </li>
                             </p>
@@ -62,11 +62,25 @@ export const resume = () => {
                             <h3>Apple Fifth Ave.</h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">Specialist <span>•</span> <em className="date"> 5 October, 2019 - 16 July, 2020 </em></p>
-                            <p style={{ textAlign: 'left' }}>
-                                <li> Performed basic troubleshooting on iOS devices and MacOS Computers  </li>
-                                <li> Provided concrete customer service and support of all standard Apple applications and hardware including hardware resets, password resets/setup, account setups, iCloud, iTunes and App Store walkthrough  </li>
+                            <p className="description">
+                                <li> Performed basic troubleshooting on iOS devices and macOS Computers  </li>
+                                <li> Provided concrete customer service and support of all standard Apple applications and hardware including hardware resets, password resets/setup, account setups, iCloud, iTunes and App Store walkthrough </li>
                                 <li> Delivered exceptional customer service while maintaining a high degree of professionalism </li>
-                                <li> Discovered potential business customers and connect them with the business team </li>
+                                <li> Advocated potential business customers and connected them with the business team </li>
+                            </p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div className="row item">
+                        <div className="twelve columns">
+                            <h3>Borough of Manhattan Community College, CUNY</h3>
+                            <h5 className="location"> New York, NY</h5>
+                            <p className="info">College Assistant <span>•</span> <em className="date">01 January, 2018 - 22 May, 2019</em></p>
+                            <p className="description">
+                                <li> Operated system check in the testing lab for CUNY Assessment Tests and verified all the software system to be used before the tests </li>
+                                <li> Responsible for a test run for the newly installed software in the lab for CUNY Assessments by partnering with my supervisors at the Testing Office </li>
+                                <li> Monitored students during CUNY Assessment Tests, and verified students’ information on CUNY’s database</li>
+                                <li> Organized, assisted, and prepared test materials, office documents, and office inventory </li>
                             </p>
                         </div>
                     </div>
