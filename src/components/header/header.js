@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import flame from "../header/flame.gif";
+import greeting from "../header/greeting.gif";
 
 export default class Header extends Component {
     render() {
@@ -18,7 +18,7 @@ export default class Header extends Component {
                 </nav>
                 <div className="row banner">
                     <div className="banner-text">
-                        <iframe src={flame} className="giphy-embed" />
+                        <iframe src={greeting} className="giphy-embed" />
                         <h1 className="responsive-headline">Hello, I'm {resumeData.name}.</h1>
                         <h3 className="header-bio">I am a {resumeData.role} who is aiming to become a {resumeData.dream} and is currently residing in {resumeData.location}. <br />
                             Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.
