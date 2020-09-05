@@ -17,7 +17,7 @@ export const about = () => {
                         </p>
                         <h2><span>What I did and am currently doing</span></h2>
                         <p>
-                            Currently, I am a software developer intern at <a href="https://wecodeucate.org/" target="_blank">Codeucate (Chicago, US)</a> and trying to solidify my knowledge on React and SwiftUI.
+                            Currently, I am a software developer intern at <a href="https://wecodeucate.org/" target="_blank">Codeucate (Chicago, IL, USA)</a> and trying to solidify my knowledge on React and SwiftUI.
                             During the 2020 quarantine, I started learning React after attending a couple of virtual hackathons and
                             SwiftUI since I am a fan of Apple and one of my main goals is to become a software developer at Apple Inc. 
                         </p>
