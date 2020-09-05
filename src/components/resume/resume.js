@@ -13,7 +13,12 @@ export const resume = () => {
                         <div className="twelve columns">
                             <h3>City College of New York, CUNY</h3>
                             <h5 className="location"> New York, NY </h5>
-                            <p className="info">B.S. Degree in Computer Science <br /> <em className="date">August 2020 - Present</em></p>
+                            <p className="info">B.S. Degree in Computer Science <span>•</span> <em className="date">August 2020 - Present</em></p>
+                            <p className="courses">
+                                Courses taking - Algorithms <span className="lan">(C++)</span>
+                                | Intro to Programming <span className="lan">(Python)</span>
+                                | <br /> Writing for Engineering
+                            </p>
                             <p style={{ textAlign: 'left' }}>
                             </p>
                         </div>
@@ -24,7 +29,12 @@ export const resume = () => {
                             <h3>Borough of Manhattan Community College, CUNY</h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">A.S. Degree in Computer Science <br /> <em className="date">August 2017 - May 2019</em></p>
-                            <p className="info"> GPA - 3.955 <span>•</span> Degree awarded on May 31, 2020 <span>•</span> Graduated with Honors </p>
+                            <p className="info"> GPA - 3.96/4.0 <span>•</span> Degree awarded on May 31, 2020 <span>•</span> Graduated with Honors </p>
+                            <p className="courses">
+                                Courses taken - Software Development <span className="lan">(HTML/CSS/PHP)</span>
+                                | Data Structure <span className="lan">(C++)</span>
+                                | Calculus 1, 2, 3
+                            </p>
                             <p style={{ textAlign: 'left' }}>
                                 <li> Out in Two Scholarship recipient</li>
                                 <li> Abner B. Rosenfield Award for Outstanding Scholarship recipient </li>

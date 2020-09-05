@@ -317,9 +317,20 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+#resume .courses {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: white;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
+}
+#resume .courses span {
+   margin-right: 5px;
+   margin-left: 5px;
+   color: #11ABB0;
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
