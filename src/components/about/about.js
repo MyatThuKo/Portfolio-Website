@@ -37,7 +37,6 @@ export const about = () => {
                                 <span>New York, Ny</span><br />
                                 <span>(347)707-3462</span><br />
                                 <span> <a href="mailto:nymyatthuko@gmail.com"> nymyatthuko@gmail.com </a></span> <br />
-                                <span><a href="https://myatthuko.com/" target="_blank">https://www.myatthuko.com</a></span>
                             </p>
                         </div>
                         <div className="columns download">
