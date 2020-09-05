@@ -311,6 +311,11 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+
+.education li {
+   font: 18px/24px Georgia, 'Times New Roman', Times, serif;
+}
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: white;
@@ -330,7 +335,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 #resume .courses span {
    margin-right: 5px;
    margin-left: 5px;
-   color: #11ABB0;
+   color: #04c9fa;
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;

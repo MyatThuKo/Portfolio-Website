@@ -38,10 +38,9 @@ export const resume = () => {
                             <p style={{ textAlign: 'left' }}>
                                 <li> Out in Two Scholarship recipient</li>
                                 <li> Abner B. Rosenfield Award for Outstanding Scholarship recipient </li>
-                                <li> Dean List (Fall 2017 - Spring 2019) </li>
+                                <li> Dean's List (Fall 2017 - Spring 2019) </li>
                                 <li> Phi Theta Keppa Honor Society Member </li>
-                                <li> President of Out in Two Club (Spring 2019) </li>
-                                <li> Secretary of Out in Two Club (Fall 2018) </li>
+                                <li> President (Spring 2019) & Secratary (Fall 2018) of Out in Two Club, an academic club focusing and helping on Out in Two scholars’ growth, network, and transfer process </li>
                             </p>
                         </div>
                     </div>
@@ -72,9 +71,9 @@ export const resume = () => {
                             <h5 className="location"> Remote </h5>
                             <p className="info">Frontend Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
                             <p className="description">
-                                <li> Responsible for building web pages that are responsive and user-friendly using React.js. </li>
-                                <li> Act as a liaison between the general frontend team and the other frontend and backend teams and work with both the interactivity and layout team to implement features </li>
-                                <li> Support other team members with building necessary web pages and fixing the bugs in the website </li>
+                                <li> Responsible for building web pages that are responsive and user-friendly using React.js </li>
+                                <li> Act as a liaison between the frontend teams and backend teams and work with both the interactivity and layout team to implement features such as the animation, bootstrap, and PayPal and Zoom Api </li>
+                                <li> Support other team members with building core web pages and fixing bugs in the website </li>
                                 <li> Collaborate with the backend team to ensure the website is functioning well and efficiently </li>
                             </p>
                         </div>
@@ -87,9 +86,9 @@ export const resume = () => {
                             <p className="info">Specialist <span>•</span> <em className="date"> 5 October, 2019 - 16 July, 2020 </em></p>
                             <p className="description">
                                 <li> Performed basic troubleshooting on iOS devices and macOS Computers  </li>
-                                <li> Provided concrete customer service and support of all standard Apple applications and hardware including hardware resets, password resets/setup, account setups, iCloud, iTunes and App Store walkthrough </li>
+                                <li> Approached potential customers, and identified customer needs and preferences in a fast-paced environment </li>
+                                <li> Provided support of all standard Apple applications and hardware, including hardware resets, password resets/setup, account setups, iCloud, iTunes and App Store walkthrough </li>
                                 <li> Delivered exceptional customer service while maintaining a high degree of professionalism </li>
-                                <li> Advocated potential business customers and connected them with the business team </li>
                             </p>
                         </div>
                     </div>
