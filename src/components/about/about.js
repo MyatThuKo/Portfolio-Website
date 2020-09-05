@@ -21,11 +21,12 @@ export const about = () => {
                             During the 2020 quarantine, I started learning React after attending a couple of virtual hackathons and
                             SwiftUI since I am a fan of Apple and one of my main goals is to become a software developer at Apple Inc. 
                         </p>
-                        <h2><span>Family</span></h2>
+                        <h2><span>Interests</span></h2>
                         <p>
-                            I am the eldest sibling in my family and have one little sister.
-                            My family acts as a big part of who I am and they play a major role in my life.
-                            My dream is always to support them where my parents don't have to work after they turn 60 years old.
+                            I love building mobile applications especially iOS applications.
+                            That's why I self-taught myself SwiftUI by watching tutorials from <a href="https://www.hackingwithswift.com/" target="_blank">Paul Hudson</a>.
+                            After attending virtual hackathons duriing the 2020 quarantine, I had my first experience on React and built this portfolio website using it.
+                            Now focusing on C++ algorithms class from CCNY and improving my skills in Python and React.
                         </p>
                     </div>
                     <div className="row">
