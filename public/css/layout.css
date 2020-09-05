@@ -306,7 +306,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .certificates {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -356,6 +356,10 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    margin-bottom: 5px;
 }
 
+#resume .certificates p {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 23px;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -496,7 +500,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
   	-webkit-animation: html5 2s ease;
 }
 .python {
-  	width: 40%;
+  	width: 60%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
@@ -523,7 +527,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 60%;  }
 }
 
 @-webkit-keyframes cpp {
@@ -548,7 +552,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width:60%;  }
 }
 
 /* ------------------------------------------------------------------ */

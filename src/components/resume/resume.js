@@ -38,6 +38,19 @@ export const resume = () => {
                 </div>
             </div>
 
+            <div className="row certificates">
+                <div className="three columns header-col">
+                    <h2><span>Certificates</span></h2>
+                </div>
+                <div className="nine columns main-col">
+                    <div className="row item">
+                        <div className="twelve columns">
+                            <p>Google IT Automation with Python Professional Certificate (In progress) </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="row work">
                 <div className="three columns header-col">
                     <h2><span>Work</span></h2>
@@ -106,9 +119,9 @@ export const resume = () => {
                             <li><span className="bar-expand html5" /><em>HTML5</em></li>
                             <li><span className="bar-expand css" /><em>CSS</em></li>
                             <li><span className="bar-expand cpp" /><em>C++</em></li>
-                            <li><span className="bar-expand swiftui" /><em>SwiftUI</em></li>
                             <li><span className="bar-expand react" /><em>React.js</em></li>
                             <li><span className="bar-expand python" /><em>Python</em></li>
+                            <li><span className="bar-expand swiftui" /><em>SwiftUI</em></li>
                         </ul>
                     </div>
                 </div>
