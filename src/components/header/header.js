@@ -19,7 +19,8 @@ export default class Header extends Component {
                 <div className="row banner">
                     <div className="banner-text">
                         <iframe src={greeting} className="giphy-embed" />
-                        <h1 className="responsive-headline">Hello, I'm {resumeData.name}.</h1>
+                        <h1 className="responsive-headline">Greeting, I'm {resumeData.nickname}.</h1>
+                        <h1 className="responsive-headline">({resumeData.name})</h1>
                         <h3 className="header-bio">I am a {resumeData.role} who is aiming to become a {resumeData.dream} and is currently residing in {resumeData.location}. <br />
                             Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.
                         </h3>

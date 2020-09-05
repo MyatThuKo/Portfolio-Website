@@ -11,7 +11,7 @@ export const about = () => {
                     <h2><span>About Me</span></h2>
                     <div className="bio">
                         <p>
-                            Hey there, I am Myat Thu Ko, people call me Myat. I am a computer science student, residing in New York, NY, and
+                            Hey there, I am Myat Thu Ko, people call me Tony. I am a computer science student, residing in New York, NY, and
                             am originally from<a href="https://en.wikipedia.org/wiki/Myanmar" target="_blank"> Myanmar</a>.
                             I am a dedicated student working towards my dream of becoming a software engineer at FAANG.
                         </p>
