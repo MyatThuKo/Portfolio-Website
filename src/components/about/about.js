@@ -23,10 +23,10 @@ export const about = () => {
                         </p>
                         <h2><span>Interests</span></h2>
                         <p>
-                            I love building mobile applications especially iOS applications.
+                            I enjoy both playing and watching basketball and soccer. I am also interested in Buddhism and Meditation. In Technical aspects, mobile and web development are my interests.
                             That's why I self-taught myself SwiftUI by watching tutorials from <a href="https://www.hackingwithswift.com/" target="_blank">Paul Hudson</a>.
                             After attending virtual hackathons duriing the 2020 quarantine, I had my first experience on React and built this portfolio website using it.
-                            Now focusing on C++ algorithms class from CCNY and improving my skills in Python and React.
+                            Now also focusing on C++ algorithms class from CCNY and improving my skills in Python and React.
                         </p>
                     </div>
                     <div className="row">
