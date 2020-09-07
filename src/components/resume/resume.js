@@ -71,10 +71,9 @@ export const resume = () => {
                             <h5 className="location"> Remote </h5>
                             <p className="info">Frontend Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
                             <p className="description">
-                                <li> Responsible for building web pages that are responsive and user-friendly using React.js </li>
-                                <li> Act as a liaison between the frontend teams and backend teams and work with both the interactivity and layout team to implement features such as the animation, bootstrap, and PayPal and Zoom Api </li>
-                                <li> Support other team members with building core web pages and fixing bugs in the website </li>
-                                <li> Collaborate with the backend team to ensure the website is functioning well and efficiently </li>
+                                <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js Framework </li>
+                                <li> Acted as a liaison between the frontend and backend teams and work with both the interactivity and layout team to implement features such as animation, bootstrap, and PayPal and Zoom APIs </li>
+                                <li> Supported other team members in building core web pages and fixing bugs in the website </li>
                             </p>
                         </div>
                     </div>
@@ -85,7 +84,7 @@ export const resume = () => {
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">Specialist <span>•</span> <em className="date"> 5 October, 2019 - 16 July, 2020 </em></p>
                             <p className="description">
-                                <li> Performed basic troubleshooting on iOS devices and macOS Computers  </li>
+                                <li> Executed basic troubleshooting on iOS devices and macOS computers  </li>
                                 <li> Approached potential customers, and identified customer needs and preferences in a fast-paced environment </li>
                                 <li> Provided support of all standard Apple applications and hardware, including hardware resets, password resets/setup, account setups, iCloud, iTunes and App Store walkthrough </li>
                                 <li> Delivered exceptional customer service while maintaining a high degree of professionalism </li>
@@ -99,9 +98,9 @@ export const resume = () => {
                             <h5 className="location"> New York, NY</h5>
                             <p className="info">College Assistant <span>•</span> <em className="date">01 January, 2018 - 22 May, 2019</em></p>
                             <p className="description">
-                                <li> Operated system check in the testing lab for CUNY Assessment Tests and verified all the software system to be used before the tests </li>
-                                <li> Responsible for a test run for the newly installed software in the lab for CUNY Assessments by partnering with my supervisors at the Testing Office </li>
-                                <li> Monitored students during CUNY Assessment Tests, and verified students’ information on CUNY’s database</li>
+                                <li> Conducted and verified all software systems to be used for the CUNY Assessment Tests in the testing labs  </li>
+                                <li> Partnered with the supervisors to test run newly installed software in the testing lab computers for the CUNY Assessments </li>
+                                <li> Monitored students during the CUNY Assessment Tests, and verified students’ information on the CUNYFirst </li>
                                 <li> Organized, assisted, and prepared test materials, office documents, and office inventory </li>
                             </p>
                         </div>
