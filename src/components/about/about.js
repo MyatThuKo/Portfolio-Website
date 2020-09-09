@@ -13,20 +13,18 @@ export const about = () => {
                         <p>
                             Hey there, I am Myat Thu Ko, people call me Tony. I am a computer science student, residing in New York, NY, and
                             am originally from<a href="https://en.wikipedia.org/wiki/Myanmar" target="_blank"> Myanmar</a>.
-                            I am a dedicated student working towards my dream of becoming a software engineer at FAANG.
+                            I am mainly interested in web and mobile development.
                         </p>
                         <h2><span>What I did and am currently doing</span></h2>
                         <p>
-                            Currently, I am a software developer intern at <a href="https://wecodeucate.org/" target="_blank">Codeucate (Chicago, IL, USA)</a> and trying to solidify my knowledge on React and SwiftUI.
-                            During the 2020 quarantine, I started learning React after attending a couple of virtual hackathons and
-                            SwiftUI since I am a fan of Apple and one of my main goals is to become a software developer at Apple Inc. 
+                            Currently, I am interning as a software developer at <a href="https://wecodeucate.org/" target="_blank">Codeucate (Chicago, IL, USA)</a> and trying to solidify my knowledge on React.js and SwiftUI.
+                            I am also doing Google IT Automation with Python Professional Certificate program in Coursera to gain knowledge on Python.
+                            During the 2020 quarantine, I had my first React.js experience from virtual hackathons and built this portfolio website using it.
                         </p>
                         <h2><span>Interests</span></h2>
                         <p>
-                            I enjoy both playing and watching basketball and soccer. I am also interested in Buddhism and Meditation. In Technical aspects, mobile and web development are my interests.
-                            That's why I self-taught myself SwiftUI by watching tutorials from <a href="https://www.hackingwithswift.com/" target="_blank">Paul Hudson</a>.
-                            After attending virtual hackathons duriing the 2020 quarantine, I had my first experience on React and built this portfolio website using it.
-                            Now also focusing on C++ algorithms class from CCNY and improving my skills in Python and React.
+                            I am always interested in visiting different countries around the world mainly to learn about their culture and food.
+                            Soccer is my most favorite sport and I always enjoy watching the games. My favorite soccer team is Manchester United F.C.
                         </p>
                     </div>
                     <div className="row">
@@ -40,12 +38,13 @@ export const about = () => {
                             </p>
                         </div>
                         <div className="columns download">
-                            <h2><span>Hobbies</span></h2>
+                            <h2><span>Interests</span></h2>
                             <p className="hobbies">
-                                <span> Playing basketball 🏀 </span> <br />
-                                <span> Playing football/soccer ⚽️ </span> <br />
-                                <span> Learning new programming languages 💻 </span> <br />
-                                <span> Exploring new cultures and food 🍽 </span> <br />
+                                <span> Basketball 🏀 </span> <br />
+                                <span> Football or Soccer ⚽️ </span> <br />
+                                <span> Gaming 💻 </span> <br />
+                                <span> Cultures and Food 🍽 </span> <br />
+                                <span> Meditation 🧘‍♂️ </span> <br />
                             </p>
                         </div>
                     </div>
