@@ -45,6 +45,7 @@ export const about = () => {
                                 <span> Gaming 💻 </span> <br />
                                 <span> Cultures and Food 🍽 </span> <br />
                                 <span> Meditation 🧘‍♂️ </span> <br />
+                                <span> Music 𝄞 </span> <br />
                             </p>
                         </div>
                     </div>

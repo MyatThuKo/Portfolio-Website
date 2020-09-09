@@ -13,7 +13,8 @@ export const resume = () => {
                         <div className="twelve columns">
                             <h3>City College of New York, CUNY</h3>
                             <h5 className="location"> New York, NY </h5>
-                            <p className="info">B.S. Degree in Computer Science <span>•</span> <em className="date">August 2020 - Present</em></p>
+                            <p className="info">B.S. in Computer Science <br /> <em className="date">August 2020 - Present</em></p>
+                            <p className="info"> Expected graducation in May 2022 </p>
                             <p className="courses">
                                 Courses taking - Algorithms <span className="lan">(C++)</span>
                                 | Intro to Programming <span className="lan">(Python)</span>
@@ -28,7 +29,7 @@ export const resume = () => {
                         <div className="twelve columns">
                             <h3>Borough of Manhattan Community College, CUNY</h3>
                             <h5 className="location"> New York, NY </h5>
-                            <p className="info">A.S. Degree in Computer Science <br /> <em className="date">August 2017 - May 2019</em></p>
+                            <p className="info">A.S. in Computer Science <br /> <em className="date">August 2017 - May 2019</em></p>
                             <p className="info"> GPA - 3.96/4.0 <span>•</span> Degree awarded on May 31, 2020 <span>•</span> Graduated with Honors </p>
                             <p className="courses">
                                 Courses taken - Software Development <span className="lan">(HTML/CSS/PHP)</span>
@@ -69,10 +70,10 @@ export const resume = () => {
                         <div className="twelve columns">
                             <h3><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></h3>
                             <h5 className="location"> Remote </h5>
-                            <p className="info">Frontend Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
+                            <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
                             <p className="description">
-                                <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js Framework </li>
-                                <li> Acted as a liaison between the frontend and backend teams and work with both the interactivity and layout team to implement features such as animation, bootstrap, and PayPal and Zoom APIs </li>
+                                <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js framework </li>
+                                <li> Acted as a liaison between the front-end and back-end teams and worked with both the interactivity and layout teams to implement features such as animation, bootstrap, and PayPal and Zoom APIs </li>
                                 <li> Supported other team members in building core web pages and fixing bugs in the website </li>
                             </p>
                         </div>
@@ -80,13 +81,13 @@ export const resume = () => {
                     <hr />
                     <div className="row item">
                         <div className="twelve columns">
-                            <h3>Apple Fifth Ave.</h3>
+                            <h3>Apple Inc. - Apple Fifth Ave Store</h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">Specialist <span>•</span> <em className="date"> 5 October, 2019 - 16 July, 2020 </em></p>
                             <p className="description">
-                                <li> Executed basic troubleshooting on iOS devices and macOS computers  </li>
+                                <li> Collaborated with Technical Specialist from Genius Bar to execute basic troubleshooting on iOS devices and macOS computers  </li>
                                 <li> Approached potential customers, and identified customer needs and preferences in a fast-paced environment </li>
-                                <li> Provided support of all standard Apple applications and hardware, including hardware resets, password resets/setup, account setups, iCloud, iTunes and App Store walkthrough </li>
+                                <li> Provided support of all standard Apple applications and hardware, including hardware resets, password resets/setup, account setups, iCloud, iTunes, and App Store walkthroughs </li>
                                 <li> Delivered exceptional customer service while maintaining a high degree of professionalism </li>
                             </p>
                         </div>
@@ -136,14 +137,14 @@ export const resume = () => {
                 <div className="four columns header-col">
                     <h2><span>Languages</span></h2>
                     <div className="flags">
-                        <img src="/images/english.png" className="language-flag" alt="English" />
-                        <p>
-                            English
-                        </p>
-                        <br />
                         <img src="/images/myanmar.png" className="language-flag" alt="Myanmar" />
                         <p>
-                            Myanmar (Burmese)
+                            Myanmar (Burmese) - Native
+                        </p>
+                        <br />
+                        <img src="/images/english.png" className="language-flag" alt="English" />
+                        <p>
+                            English - Fluent
                         </p>
                     </div>
                 </div>
