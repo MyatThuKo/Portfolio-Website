@@ -73,8 +73,8 @@ export const resume = () => {
                             <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
                             <p className="description">
                                 <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js framework </li>
-                                <li> Acted as a liaison between the front-end and back-end teams and worked with both the interactivity and layout teams to implement features such as animation, bootstrap, and PayPal and Zoom APIs </li>
-                                <li> Supported other team members in building core web pages and fixing bugs in the website </li>
+                                <li> Acted as a liaison between the front-end and back-end teams and worked with both the interactivity and layout teams to implement features such as animation, bootstrap, and PayPal/Zoom APIs </li>
+                                <li> Supported team members in building core web pages and fixing bugs in the website </li>
                             </p>
                         </div>
                     </div>
@@ -86,9 +86,9 @@ export const resume = () => {
                             <p className="info">Specialist <span>•</span> <em className="date"> 5 October, 2019 - 16 July, 2020 </em></p>
                             <p className="description">
                                 <li> Collaborated with Technical Specialist from Genius Bar to execute basic troubleshooting on iOS devices and macOS computers  </li>
-                                <li> Approached potential customers, and identified customer needs and preferences in a fast-paced environment </li>
+                                <li> Approached potential customers and identified customer needs and preferences in a fast-paced environment </li>
+                                <li> Obtained outstanding performance feedback from leadership team for professionalism and exceptional customer service </li>
                                 <li> Provided support of all standard Apple applications and hardware, including hardware resets, password resets/setup, account setups, iCloud, iTunes, and App Store walkthroughs </li>
-                                <li> Delivered exceptional customer service while maintaining a high degree of professionalism </li>
                             </p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ export const resume = () => {
                                 <li> Conducted and verified all software systems to be used for the CUNY Assessment Tests in the testing labs  </li>
                                 <li> Partnered with the supervisors to test run newly installed software in the testing lab computers for the CUNY Assessments </li>
                                 <li> Monitored students during the CUNY Assessment Tests, and verified students’ information on the CUNYFirst </li>
-                                <li> Organized, assisted, and prepared test materials, office documents, and office inventory </li>
+                                <li> Organized and prepared test materials, office documents, and office inventory </li>
                             </p>
                         </div>
                     </div>
