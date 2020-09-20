@@ -348,7 +348,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 }
 
 #resume .description {
-   font: 18px/24px 'Courier New', Courier, monospace;
+   font: 18px/24px Georgia, 'Times New Roman', Times, serif;
    font-weight: 300;
    text-align: left;
 }
@@ -372,9 +372,10 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    margin-bottom: 5px;
 }
 
-#resume .certificates p {
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 23px;
+#resume .certificates .google-python {
+   font: 18px/24px Georgia, 'Times New Roman', Times, serif;
+   color: white;
+   size: 15px;
 }
 /*----------------------------------------------*/
 /*	Skill Bars

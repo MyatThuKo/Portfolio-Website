@@ -11,12 +11,12 @@ export const resume = () => {
                 <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
-                            <h3>City College of New York, CUNY</h3>
+                            <h3><u>City College of New York, CUNY</u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">B.S. in Computer Science <br /> <em className="date">August 2020 - Present</em></p>
                             <p className="info"> Expected graducation in May 2022 </p>
                             <p className="courses">
-                                Courses taking - Algorithms <span className="lan">(C++)</span>
+                                Relevant Coursework - Algorithms <span className="lan">(C++)</span>
                                 | Intro to Programming <span className="lan">(Python)</span>
                                 | <br /> Writing for Engineering
                             </p>
@@ -27,12 +27,12 @@ export const resume = () => {
                     <hr />
                     <div className="row item">
                         <div className="twelve columns">
-                            <h3>Borough of Manhattan Community College, CUNY</h3>
+                            <h3><u>Borough of Manhattan Community College, CUNY</u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">A.S. in Computer Science <br /> <em className="date">August 2017 - May 2019</em></p>
                             <p className="info"> GPA - 3.96/4.0 <span>•</span> Degree awarded on May 31, 2020 <span>•</span> Graduated with Honors </p>
                             <p className="courses">
-                                Courses taken - Software Development <span className="lan">(HTML/CSS/PHP)</span>
+                                Relevant Coursework - Software Development <span className="lan">(HTML/CSS/PHP)</span>
                                 | Data Structure <span className="lan">(C++)</span>
                                 | Calculus 1, 2, 3
                             </p>
@@ -55,7 +55,16 @@ export const resume = () => {
                 <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
-                            <p>Google IT Automation with Python Professional Certificate (In progress) </p>
+                            <h3><u>Google IT Automation with Python Professional Certificate (In progress)</u></h3>
+                            <ol style={{ textAlign: 'left' }} className="google-python">
+                                Relevant Coursework:
+                                <li>Crash Course on Python (Completed)</li>
+                                <li> Using Python to Interact with the Operating System </li>
+                                <li> Introduction to Git and GitHub </li>
+                                <li> Troubleshooting and Debugging Techniques </li>
+                                <li> Configuration Management and the Cloud </li>
+                                <li> Automating Real-World Tasks with Python </li>
+                            </ol>
                         </div>
                     </div>
                 </div>
@@ -68,7 +77,7 @@ export const resume = () => {
                 <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
-                            <h3><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></h3>
+                            <h3><u><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></u></h3>
                             <h5 className="location"> Remote </h5>
                             <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
                             <p className="description">
@@ -81,7 +90,7 @@ export const resume = () => {
                     <hr />
                     <div className="row item">
                         <div className="twelve columns">
-                            <h3>Apple Inc. - Apple Fifth Ave Store</h3>
+                            <h3><u>Apple Inc. - Apple Fifth Ave Store</u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">Specialist <span>•</span> <em className="date"> 5 October, 2019 - 16 July, 2020 </em></p>
                             <p className="description">
@@ -95,7 +104,7 @@ export const resume = () => {
                     <hr />
                     <div className="row item">
                         <div className="twelve columns">
-                            <h3>Borough of Manhattan Community College, CUNY</h3>
+                            <h3><u>Borough of Manhattan Community College, CUNY</u></h3>
                             <h5 className="location"> New York, NY</h5>
                             <p className="info">College Assistant <span>•</span> <em className="date">01 January, 2018 - 22 May, 2019</em></p>
                             <p className="description">
