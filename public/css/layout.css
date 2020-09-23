@@ -525,7 +525,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
   	-webkit-animation: html5 2s ease;
 }
 .python {
-  	width: 60%;
+  	width: 80%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
@@ -552,7 +552,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 
 @-webkit-keyframes cpp {
@@ -577,7 +577,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width:60%;  }
+  100% { width:80%;  }
 }
 
 /* ------------------------------------------------------------------ */

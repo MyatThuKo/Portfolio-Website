@@ -137,8 +137,8 @@ export const resume = () => {
                             <li><span className="bar-expand html5" /><em>HTML5</em></li>
                             <li><span className="bar-expand css" /><em>CSS</em></li>
                             <li><span className="bar-expand cpp" /><em>C++</em></li>
-                            <li><span className="bar-expand react" /><em>React.js</em></li>
                             <li><span className="bar-expand python" /><em>Python</em></li>
+                            <li><span className="bar-expand react" /><em>React.js</em></li>
                             <li><span className="bar-expand swiftui" /><em>SwiftUI</em></li>
                         </ul>
                     </div>
