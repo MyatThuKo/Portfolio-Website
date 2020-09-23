@@ -58,7 +58,7 @@ export const resume = () => {
                             <h3><u>Google IT Automation with Python Professional Certificate (In progress)</u></h3>
                             <ol style={{ textAlign: 'left' }} className="google-python">
                                 Relevant Coursework:
-                                <li>Crash Course on Python (Completed)</li>
+                                <li>Crash Course on Python <a href="https://coursera.org/share/6344d6059e457649bd55f19744ea8fd3" target="_blank">(See Certificate)</a> </li>
                                 <li> Using Python to Interact with the Operating System </li>
                                 <li> Introduction to Git and GitHub </li>
                                 <li> Troubleshooting and Debugging Techniques </li>

@@ -377,6 +377,14 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    color: white;
    size: 15px;
 }
+
+#resume .certificates .google-python a {
+   color: #11ABB0;
+}
+
+#resume .certificates .google-python a:hover{
+   color: white;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
