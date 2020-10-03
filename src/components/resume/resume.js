@@ -60,7 +60,7 @@ export const resume = () => {
                                 Relevant Coursework:
                                 <li>Crash Course on Python <a href="https://coursera.org/share/6344d6059e457649bd55f19744ea8fd3" target="_blank">(See Certificate)</a> </li>
                                 <li> Using Python to Interact with the Operating System </li>
-                                <li> Introduction to Git and GitHub </li>
+                                <li> Introduction to Git and GitHub <a href="https://www.coursera.org/account/accomplishments/certificate/HM46REP9H22C" target="_blank">(See Certificate)</a></li>
                                 <li> Troubleshooting and Debugging Techniques </li>
                                 <li> Configuration Management and the Cloud </li>
                                 <li> Automating Real-World Tasks with Python </li>
@@ -77,8 +77,18 @@ export const resume = () => {
                 <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
+                            <h3><u>Pantsuit Professionals</u></h3>
+                            <h5 className="location"> New York, NY (Remote) </h5>
+                            <p className="info"> iOS Developer Intern <span>•</span> <em className="date">28 September, 2020 - Present</em></p>
+                            <p className="description">
+                                <li> Work closely on UI/UX design with the iOS Engineering teams </li>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row item">
+                        <div className="twelve columns">
                             <h3><u><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></u></h3>
-                            <h5 className="location"> Remote </h5>
+                            <h5 className="location"> Chicago, IL (Remote) </h5>
                             <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
                             <p className="description">
                                 <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js framework </li>
