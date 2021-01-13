@@ -14,7 +14,7 @@ export const resume = () => {
                             <h3><u>City College of New York, CUNY</u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">B.S. in Computer Science <br /> <em className="date">August 2020 - Present</em></p>
-                            <p className="info"> Expected graducation in May 2022 </p>
+                            <p className="info"> GPA - 3.86/4.0 <span>•</span> Expected graducation in May 2022 </p>
                             <p className="courses">
                                 Relevant Coursework - Algorithms <span className="lan">(C++)</span>
                                 | Intro to Programming <span className="lan">(Python)</span>
@@ -45,6 +45,24 @@ export const resume = () => {
                             </p>
                         </div>
                     </div>
+
+                    <hr />
+                    <div className="row item">
+                        <div className="twelve columns">
+                            <h3><u>CodePath iOS Course</u></h3>
+                            <h5 className="location"> New York, NY </h5>
+                            <p className="info"> Spring 2021  <br /> <em className="date">January 2021 - May 2021</em></p>
+                            <p style={{ textAlign: 'left' }} className="courses">
+                                Language used: <span className="lan"> Swift Storyboard </span>
+                                <br />Relevant Topics:
+                                <li> Views and View Controllers - View controller lifecycle, Using common views (buttons, labels, images) and Using table views and collection views</li>
+                                <li> Auto Layout - Basic Auto Layout and Auto Layout and table views</li>
+                                <li> Navigation - Modal and push navigation, Tab bar controllers and Passing data between view controllers</li>
+                                <li> Animation and Gestures - Lottie Animations and SkeletonViews</li>
+                                <li> Networking Sending network requests, Downloading and caching remote images and Using Parse as a back-end</li>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -55,16 +73,10 @@ export const resume = () => {
                 <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
-                            <h3><u>Google IT Automation with Python Professional Certificate (In progress)</u></h3>
-                            <ol style={{ textAlign: 'left' }} className="google-python">
-                                Relevant Coursework:
+                            <ul style={{ textAlign: 'left' }} className="google-python">
                                 <li>Crash Course on Python <a href="https://coursera.org/share/6344d6059e457649bd55f19744ea8fd3" target="_blank">(See Certificate)</a> </li>
-                                <li> Using Python to Interact with the Operating System </li>
                                 <li> Introduction to Git and GitHub <a href="https://www.coursera.org/account/accomplishments/certificate/HM46REP9H22C" target="_blank">(See Certificate)</a></li>
-                                <li> Troubleshooting and Debugging Techniques </li>
-                                <li> Configuration Management and the Cloud </li>
-                                <li> Automating Real-World Tasks with Python </li>
-                            </ol>
+                            </ul>
                         </div>
                     </div>
                 </div>
