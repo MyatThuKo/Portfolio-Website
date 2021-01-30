@@ -322,6 +322,10 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+#resume h4 {
+   font-family: 'monospace', sans-serif;
+   color: white;
+}
 #resume .courses {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: white;

@@ -49,7 +49,7 @@ export const resume = () => {
                     <hr />
                     <div className="row item">
                         <div className="twelve columns">
-                            <h3><u>CodePath iOS Course</u></h3>
+                            <h3><u><a href="https://codepath.org" target="_blank">CodePath iOS Course</a></u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info"> Spring 2021  <br /> <em className="date">January 2021 - May 2021</em></p>
                             <p style={{ textAlign: 'left' }} className="courses">
@@ -60,6 +60,19 @@ export const resume = () => {
                                 <li> Navigation - Modal and push navigation, Tab bar controllers and Passing data between view controllers</li>
                                 <li> Animation and Gestures - Lottie Animations and SkeletonViews</li>
                                 <li> Networking Sending network requests, Downloading and caching remote images and Using Parse as a back-end</li>
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr />
+                    <div className="row item">
+                        <div className="twelve columns">
+                            <h3><u>Major League Hacking (MLH) Fellowship</u></h3>
+                            <h4><i>Explorer Fellow</i></h4>
+                            <h5 className="location"> New York, NY </h5>
+                            <p className="info"> Spring 2021  <br /> <em className="date">February 2021 - April 2021</em></p>
+                            <p style={{ textAlign: 'left' }} className="courses">
+                                <li> Collaborate and explore new technologies to build portfolio projects </li>
                             </p>
                         </div>
                     </div>
@@ -101,7 +114,7 @@ export const resume = () => {
                         <div className="twelve columns">
                             <h3><u><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></u></h3>
                             <h5 className="location"> Chicago, IL (Remote) </h5>
-                            <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - Present</em></p>
+                            <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - December 2020</em></p>
                             <p className="description">
                                 <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js framework </li>
                                 <li> Acted as a liaison between the front-end and back-end teams and worked with both the interactivity and layout teams to implement features such as animation, bootstrap, and PayPal/Zoom APIs </li>
