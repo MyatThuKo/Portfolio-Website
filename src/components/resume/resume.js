@@ -114,7 +114,7 @@ export const resume = () => {
                         <div className="twelve columns">
                             <h3><u><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></u></h3>
                             <h5 className="location"> Chicago, IL (Remote) </h5>
-                            <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - December 2020</em></p>
+                            <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - 31 December 2020</em></p>
                             <p className="description">
                                 <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js framework </li>
                                 <li> Acted as a liaison between the front-end and back-end teams and worked with both the interactivity and layout teams to implement features such as animation, bootstrap, and PayPal/Zoom APIs </li>
