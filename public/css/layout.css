@@ -692,11 +692,17 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    height: auto;
    display: inline-block;
 	border-radius: 3px;
-   margin-left: 26%;
+   margin-left: 20%;
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
 	background: #fff;
+}
+#contact .after-submit {
+   font: 20px/40px 'Courier New', Courier, monospace;
+}
+#contact .after-submit p:hover {
+   color: lawngreen;
 }
 #contact span.required {
 	color: #11ABB0;
