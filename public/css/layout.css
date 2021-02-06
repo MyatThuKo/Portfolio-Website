@@ -285,7 +285,8 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 #resume h1 span {
-   border-bottom: 3px solid #006cc5;
+   border-bottom: 3px solid #000000;
+   /* border-bottom: 3px solid #006cc5; */
 }
 
 #resume p, h3, h5 {
@@ -293,7 +294,8 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 #resume a, #resume a:visited  { color: white; }
-#resume a:hover, #resume a:focus { color: #11ABB0; }
+/* #resume a:hover, #resume a:focus { color: #11ABB0; } */
+#resume a:hover, #resume a:focus { color: #000000; }
 
 #resume hr {
    border-top: 2px dashed white;
@@ -308,7 +310,8 @@ ul#nav li.current a { color: #ff0000 }
    color: white;
 }
 #resume h2 span {
-   border-bottom: 3px solid #006cc5;
+   /* border-bottom: 3px solid #006cc5; */
+   border-bottom: 3px solid #000000;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -351,7 +354,8 @@ ul#nav li.current a { color: #ff0000 }
 #resume .courses span {
    margin-right: 5px;
    margin-left: 5px;
-   color: #04c9fa;
+   /* color: #04c9fa; */
+   color: black; 
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
@@ -395,11 +399,12 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 #resume .certificates .google-python a {
-   color: #11ABB0;
+   /* color: #11ABB0; */
+   color: white;
 }
 
 #resume .certificates .google-python a:hover{
-   color: white;
+   color: black;
 }
 /*----------------------------------------------*/
 /*	Skill Bars
