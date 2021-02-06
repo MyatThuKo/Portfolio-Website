@@ -18,7 +18,8 @@ export default class Header extends Component {
                 </nav>
                 <div className="row banner">
                     <div className="banner-text">
-                        <iframe src={greeting} className="giphy-embed" />
+                        {/* <iframe src={greeting} className="giphy-embed" /> */}
+                        <img src="images/myanmar-background.jpeg" />
                         <h1 className="responsive-headline">Greeting, I'm {resumeData.nickname}.</h1>
                         <h1 className="responsive-headline">({resumeData.name})</h1>
                         <h3 className="header-bio">I am a {resumeData.role} who is aiming to become a {resumeData.dream} and is currently residing in {resumeData.location}. <br />

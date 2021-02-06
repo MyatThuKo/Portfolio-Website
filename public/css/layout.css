@@ -30,7 +30,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/red-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -184,7 +184,8 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: rgb(35, 123, 211); }
+/* ul#nav li.current a { color: rgb(35, 123, 211); } */
+ul#nav li.current a { color: #ff0000 }
 
 .giphy-embed {
    position: relative;
@@ -199,29 +200,36 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 
 #about {
    /* background: #222222; */
-   background: #000000;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #000000, #003558);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #000000, #003558); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /* background: #000000;  fallback for old browsers */
+   /* background: -webkit-linear-gradient(to bottom, #000000, #003558);  Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to bottom, #000000, #003558); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #f7f715;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #f7f715, #037a13);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #f7f715, #037a13); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: rgb(0, 105, 224); }
+/* #about a, #about a:visited  { color: rgb(0, 105, 224); } */
+#about a, #about a:visited  { color:#ff0000 }
 #about a:hover, #about a:focus { color: white; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: white;
+   /* color: white; */
+   color: black; 
    margin-top: 20px;
 }
 #about h2 span {
-   border-bottom: 4px solid #006cc5;
+   /* border-bottom: 4px solid #006cc5; */
+   border-bottom: 4px solid #ff0000;
 }
 
 #about p {
    line-height: 25px;
-   color: #e2dddd;
+   /* color: #e2dddd; */
+   color: #02243a; 
    font-size: 17px;
 }
 #about .profile-pic {
@@ -255,9 +263,13 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #313131;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #003558, #313131);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #003558, #313131); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /* background: #313131;  fallback for old browsers */
+   /* background: -webkit-linear-gradient(to bottom, #003558, #313131);  Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to bottom, #003558, #313131); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   background: #037a13;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #037a13, #ff0000);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #037a13, #ff0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
    padding-top: 90px;
    padding-bottom: 72px;
@@ -589,10 +601,12 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 /* ------------------------------------------------------------------ */
 
 #contact {
-   /* background: #191919; */
-   background: #313131;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #313131, #1a1717);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #313131, #1a1717); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /* background: #313131;  fallback for old browsers */
+   /* background: -webkit-linear-gradient(to bottom, #313131, #1a1717);  Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to bottom, #313131, #1a1717); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #f7f715;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #f7f715, #037a13, #FF0000);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #f7f715, #037a13, #FF0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -603,16 +617,19 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    font: 50px/56px 'librebaskerville-italic', Times, serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   color: white;
+   /* color: white; */
+   color: black;
    padding-bottom: 50px;
 }
 
 #contact h1 span {
-   border-bottom: 3px solid #006cc5;
+   /* border-bottom: 3px solid #006cc5; */
+   border-bottom: 3px solid red;
 }
 
-#contact a, #about a:visited  { color: rgb(0, 105, 224); }
-#contact a:hover, #about a:focus { color: white; }
+/* #contact a, #about a:visited  { color: rgb(0, 105, 224); } */
+#contact a, #about a:visited  { color: white; }
+#contact a:hover, #about a:focus { color: black; }
 
 #contact h2 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -630,21 +647,26 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   /* color: #ebeeee; */
+   color: black;
 }
 
 #contact h3 {
    font: 24px/30px 'librebaskerville-italic', Times, serif;
-   color: #ffffff;
+   /* color: #ffffff; */
+   color: black;
    padding-bottom: 10px;
 }
 #contact h3 span {
    border-bottom: 3px solid #006cc5;
+   border-bottom: 3px solid red;
    padding-bottom: 5px;
 }
 
 #contact p {
-   color: white;
+   color: black;
+   font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
@@ -656,9 +678,10 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 /* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 20px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   /* color: #EBEEEE; */
+   color: black;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -667,8 +690,9 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
-	background: #373233;
+	/* color: #eee; */
+   color: black;
+	background: #ffffff;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -680,7 +704,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #ff0000;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -702,11 +726,11 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    font: 20px/40px 'Courier New', Courier, monospace;
 }
 #contact .after-submit p:hover {
-   color: lawngreen;
+   color: #037a13;
 }
 #contact span.required {
-	color: #11ABB0;
-	font-size: 13px;
+	color: #000000;
+	font-size: 18px;
 }
 #message-warning, #message-success {
    display: none;
@@ -717,7 +741,7 @@ ul#nav li.current a { color: rgb(35, 123, 211); }
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #000000; }
 
 #message-warning i,
 #message-success i {

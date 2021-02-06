@@ -59,10 +59,6 @@ export default class contactus extends React.Component {
                                     </div>
                                 </fieldset>
                             </form>
-                            <div id="message-warning">This contact form is still under construction. Sorry for the inconvenience.</div>
-                            <div id="message-success">
-                                <i className="fa fa-check" />Thank you for contacting.<br />
-                            </div>
                         </div>
                         <aside className="four columns footer-widgets">
                             <div className="widget widget_contact">
