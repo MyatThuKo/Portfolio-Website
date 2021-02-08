@@ -16,7 +16,7 @@ export default class contactus extends React.Component {
                     <h1><span>Get In Touch</span></h1>
                     <div className="row section-head">
                         <div className="two columns header-col">
-                            <h2><span>Get In Touch.</span></h2>
+                            <img className="mail" src="https://img.icons8.com/ios/500/000000/gmail--v2.png" alt="mail" />
                         </div>
                         <div className="ten columns">
                             <p className="lead">

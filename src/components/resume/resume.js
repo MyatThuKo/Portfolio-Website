@@ -160,8 +160,9 @@ export const resume = () => {
                             <li><span className="bar-expand communication" /><em>Communication</em></li>
                             <li><span className="bar-expand problem-solving" /><em>Problem Solving</em></li>
                             <li><span className="bar-expand adaptability" /><em>Adaptability</em></li>
-                            <li><span className="bar-expand time-management" /><em>Time Management</em></li>
+                            <li><span className="bar-expand quick-learning" /><em>Quick Learning</em></li>
                             <li><span className="bar-expand teamwork" /><em>Team Work</em></li>
+                            <li><span className="bar-expand time-management" /><em>Time Management</em></li>
                         </ul>
                     </div>
                 </div>
@@ -169,26 +170,26 @@ export const resume = () => {
                     <h2><span>Technical Skills</span></h2>
                     <div className="bars">
                         <ul className="skills">
-                            <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                            <li><span className="bar-expand css" /><em>CSS</em></li>
+                            <li><span className="bar-expand python" /><em>Python </em></li>
                             <li><span className="bar-expand cpp" /><em>C++</em></li>
-                            <li><span className="bar-expand python" /><em>Python</em></li>
-                            <li><span className="bar-expand react" /><em>React.js</em></li>
+                            <li><span className="bar-expand html5" /><em>HTML5</em></li>
                             <li><span className="bar-expand swiftui" /><em>SwiftUI</em></li>
+                            <li><span className="bar-expand css" /><em>CSS</em></li>
+                            <li><span className="bar-expand react" /><em>React.js</em></li>
                         </ul>
                     </div>
                 </div>
                 <div className="four columns header-col">
                     <h2><span>Languages</span></h2>
                     <div className="flags">
-                        <img src="/images/myanmar.png" className="language-flag" alt="Myanmar" />
+                        <img className="language-flag" src="https://img.icons8.com/color/900/000000/myanmar-circular.png" alt="myanmar" />
                         <p>
-                            Myanmar (Burmese) - Native
+                            Burmese (Native)
                         </p>
                         <br />
-                        <img src="/images/english.png" className="language-flag" alt="English" />
+                        <img src="https://img.icons8.com/color/900/000000/usa-circular.png" className="language-flag" alt="English" />
                         <p>
-                            English - Fluent
+                            English (Fluent)
                         </p>
                     </div>
                 </div>

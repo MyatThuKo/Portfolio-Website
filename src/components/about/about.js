@@ -52,7 +52,7 @@ export const about = () => {
                     <h2> Scroll down to see my <a className="smoothscroll" href="#resume">Resume</a> </h2>
                 </div>
                 <div className="two columns">
-                    <img className="profile-pic" src="images/myanmar.png" alt="profile" />
+                    <img className="profile-pic" src="https://img.icons8.com/color/900/000000/myanmar-circular.png" alt="myanmar" />
                 </div>
             </div>
         </section>

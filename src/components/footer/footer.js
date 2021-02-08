@@ -11,7 +11,7 @@ export const footer = () => {
                         <li><a href="https://github.com/MyatThuKo" target="_blank"><i className="fa fa-github" /></a></li>
                     </ul>
                     <ul className="copyright">
-                        <li>© Copyright 2020 Myat Thu Ko</li>
+                        <li>© Copyright 2021 Myat Thu Ko</li>
                         <li>Design Credit to <a title="Styleshout" target="_blank" href="http://www.styleshout.com/">Styleshout</a></li>
                     </ul>
                 </div>
