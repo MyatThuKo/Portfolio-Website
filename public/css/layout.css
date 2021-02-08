@@ -199,37 +199,35 @@ ul#nav li.current a { color: #ff0000 }
 /* ------------------------------------------------------------------ */
 
 #about {
-   /* background: #222222; */
-   /* background: #000000;  fallback for old browsers */
-   /* background: -webkit-linear-gradient(to bottom, #000000, #003558);  Chrome 10-25, Safari 5.1-6 */
-   /* background: linear-gradient(to bottom, #000000, #003558); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   background: #f7f715;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #f7f715, #037a13);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #f7f715, #037a13); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #222222;  
+   background: -webkit-linear-gradient(to bottom, #000000, #003558); 
+   background: linear-gradient(to bottom, #000000, #003558);
+   /* background: #f7f715;  
+   background: -webkit-linear-gradient(to bottom, #f7f715, #037a13); 
+   background: linear-gradient(to bottom, #f7f715, #037a13);  */
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-/* #about a, #about a:visited  { color: rgb(0, 105, 224); } */
-#about a, #about a:visited  { color:#ff0000 }
+#about a, #about a:visited  { color: rgb(0, 105, 224); }
 #about a:hover, #about a:focus { color: white; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   /* color: white; */
-   color: black; 
+   color: white;
+   /* color: black;  */
    margin-top: 20px;
 }
 #about h2 span {
-   /* border-bottom: 4px solid #006cc5; */
-   border-bottom: 4px solid #ff0000;
+   border-bottom: 4px solid #006cc5;
+   /* border-bottom: 4px solid #ff0000; */
 }
 
 #about p {
    line-height: 25px;
-   /* color: #e2dddd; */
-   color: #02243a; 
+   color: #e2dddd;
+   /* color: #02243a;  */
    font-size: 17px;
 }
 #about .profile-pic {
@@ -263,13 +261,13 @@ ul#nav li.current a { color: #ff0000 }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   /* background: #313131;  fallback for old browsers */
-   /* background: -webkit-linear-gradient(to bottom, #003558, #313131);  Chrome 10-25, Safari 5.1-6 */
-   /* background: linear-gradient(to bottom, #003558, #313131); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #313131;  
+   background: -webkit-linear-gradient(to bottom, #003558, #313131); 
+   background: linear-gradient(to bottom, #003558, #313131);
 
-   background: #037a13;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #037a13, #ff0000);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #037a13, #ff0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /* background: #037a13; */
+   /* background: -webkit-linear-gradient(to bottom, #037a13, #ff0000);   */
+   /* background: linear-gradient(to bottom, #037a13, #ff0000); */
 
    padding-top: 90px;
    padding-bottom: 72px;
@@ -285,8 +283,7 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 #resume h1 span {
-   border-bottom: 3px solid #000000;
-   /* border-bottom: 3px solid #006cc5; */
+   border-bottom: 3px solid #006cc5;
 }
 
 #resume p, h3, h5 {
@@ -294,8 +291,8 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 #resume a, #resume a:visited  { color: white; }
-/* #resume a:hover, #resume a:focus { color: #11ABB0; } */
-#resume a:hover, #resume a:focus { color: #000000; }
+#resume a:hover, #resume a:focus { color: #11ABB0; }
+/* #resume a:hover, #resume a:focus { color: #000000; } */
 
 #resume hr {
    border-top: 2px dashed white;
@@ -310,8 +307,8 @@ ul#nav li.current a { color: #ff0000 }
    color: white;
 }
 #resume h2 span {
-   /* border-bottom: 3px solid #006cc5; */
-   border-bottom: 3px solid #000000;
+   border-bottom: 3px solid #006cc5;
+   /* border-bottom: 3px solid #000000; */
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -354,8 +351,8 @@ ul#nav li.current a { color: #ff0000 }
 #resume .courses span {
    margin-right: 5px;
    margin-left: 5px;
-   /* color: #04c9fa; */
-   color: black; 
+   color: #04c9fa;
+   /* color: black;  */
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
@@ -399,8 +396,8 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 #resume .certificates .google-python a {
-   /* color: #11ABB0; */
-   color: red;
+   color: #11ABB0;
+   /* color: red; */
 }
 
 #resume .certificates .google-python a:hover{
@@ -619,15 +616,15 @@ ul#nav li.current a { color: #ff0000 }
 /* ------------------------------------------------------------------ */
 
 #contact {
-   /* background: #313131;  fallback for old browsers */
-   /* background: -webkit-linear-gradient(to bottom, #313131, #1a1717);  Chrome 10-25, Safari 5.1-6 */
-   /* background: linear-gradient(to bottom, #313131, #1a1717); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   background: #f7f715;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #f7f715, #037a13, #FF0000);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #f7f715, #037a13, #FF0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #313131;
+   background: -webkit-linear-gradient(to bottom, #313131, #1a1717);  
+   background: linear-gradient(to bottom, #313131, #1a1717); 
+   /* background: #f7f715; 
+   background: -webkit-linear-gradient(to bottom, #f7f715, #037a13, #FF0000);  
+   background: linear-gradient(to bottom, #f7f715, #037a13, #FF0000); */
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: white;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -635,24 +632,24 @@ ul#nav li.current a { color: #ff0000 }
    font: 50px/56px 'librebaskerville-italic', Times, serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   /* color: white; */
-   color: black;
+   color: white;
+   /* color: black; */
    padding-bottom: 50px;
 }
 
 #contact h1 span {
-   /* border-bottom: 3px solid #006cc5; */
-   border-bottom: 3px solid red;
+   border-bottom: 3px solid #006cc5;
+   /* border-bottom: 3px solid red; */
 }
 
-/* #contact a, #about a:visited  { color: rgb(0, 105, 224); } */
-#contact a, #about a:visited  { color: white; }
-#contact a:hover, #about a:focus { color: black; }
+#contact a, #about a:visited  { color: rgb(0, 105, 224); }
+/* #contact a, #about a:visited  { color: white; } */
+#contact a:hover, #about a:focus { color: white; }
 
 #contact h3 {
    font: 24px/30px 'librebaskerville-italic', Times, serif;
-   /* color: #ffffff; */
-   color: black;
+   color: #ffffff;
+   /* color: black; */
    padding-bottom: 10px;
 }
 #contact h3 span {
@@ -662,7 +659,7 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 #contact p {
-   color: black;
+   color: white;
    font-weight: bold;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -672,14 +669,17 @@ ul#nav li.current a { color: #ff0000 }
 }
 #contact .header-col { padding-top: 6px; }
 
+#contact .mail {
+   color: white;
+}
 
 /* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
    font: 20px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   /* color: #EBEEEE; */
-   color: black;
+   color: #EBEEEE;
+   /* color: black; */
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -688,8 +688,8 @@ ul#nav li.current a { color: #ff0000 }
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	/* color: #eee; */
-   color: black;
+	color: #eee;
+   /* color: black; */
 	background: #ffffff;
 	margin-bottom: 42px;
 	border: 0;
@@ -759,7 +759,7 @@ ul#nav li.current a { color: #ff0000 }
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   /* color: #0d0d0d; */
+   color: #0d0d0d;
    background: #1a1717;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to bottom, #1a1717, #0d0d0d);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to bottom, #1a1717, #0d0d0d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
