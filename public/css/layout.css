@@ -232,28 +232,24 @@ ul#nav li.current a { color: #ff0000 }
 }
 #about .profile-pic {
    position: relative;
-   width: 200px;
-   height: 200px;
+   width: 300px;
    border-radius: 100%;
 }
 
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { width: 30%; }
 #about .download {
-   width: 58.33333%;
-   padding-top: 6px;
+   width: 60%;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
+#about .main-col { padding: 10px; }
+#about .hobbies {
+   padding-top: 20px;
 }
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
+#about .hobbies h5 {
+   color: white;
+   font-family: 'librebaskerville-italic', monospace;
 }
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
+#about .hobbies span {
+   padding: 3px;
 }
 
 /* ------------------------------------------------------------------ */
