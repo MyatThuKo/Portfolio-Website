@@ -14,7 +14,7 @@ export default class contactus extends React.Component {
             <div>
                 <section id="contact">
                     <div>
-                        <img src="https://img.icons8.com/plasticine/128/ffffff/apple-mail.png" />
+                        <img src="https://img.icons8.com/clouds/128/000000/apple-mail.png" />
                         <h1> <span>Get In Touch </span></h1>
                     </div>
                     <div className="row section-head">
