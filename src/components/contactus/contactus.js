@@ -13,12 +13,12 @@ export default class contactus extends React.Component {
         return (
             <div>
                 <section id="contact">
-                    <h1><span>Get In Touch</span></h1>
+                    <div>
+                        <img src="https://img.icons8.com/plasticine/128/ffffff/apple-mail.png" />
+                        <h1> <span>Get In Touch </span></h1>
+                    </div>
                     <div className="row section-head">
-                        <div className="two columns header-col">
-                            <img className="mail" src="https://img.icons8.com/ios/500/000000/gmail--v2.png" alt="mail" />
-                        </div>
-                        <div className="ten columns">
+                        <div className="twelve columns">
                             <p className="lead">
                                 If you are looking for a candidate for the following position, please fill out the form below to contact me.
                             <ul style={{ listStyle: 'none' }}>

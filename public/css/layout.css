@@ -622,11 +622,11 @@ ul#nav li.current a { color: #ff0000 }
    /* background: #f7f715; 
    background: -webkit-linear-gradient(to bottom, #f7f715, #037a13, #FF0000);  
    background: linear-gradient(to bottom, #f7f715, #037a13, #FF0000); */
-   padding-top: 96px;
+   padding-top: 10px;
    padding-bottom: 102px;
    color: white;
 }
-#contact .section-head { margin-bottom: 42px; }
+#contact .section-head { margin-bottom: 40px; }
 
 #contact h1 {
    font: 50px/56px 'librebaskerville-italic', Times, serif;
