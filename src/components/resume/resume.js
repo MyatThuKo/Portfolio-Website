@@ -5,12 +5,12 @@ export const resume = () => {
         <section id="resume">
             <h1><span>Resume</span></h1>
             <div className="row education">
-                <div className="three columns header-col">
+                <div className="two columns header-col">
                     <h2><span>Education</span></h2>
                 </div>
-                <div className="nine columns main-col">
+                <div className="ten columns main-col">
                     <div className="row item">
-                        <div className="twelve columns">
+                        <div className="eleven rows">
                             <h3><u>City College of New York, CUNY</u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">B.S. in Computer Science <br /> <em className="date">August 2020 - Present</em></p>
@@ -23,10 +23,10 @@ export const resume = () => {
                             <p style={{ textAlign: 'left' }}>
                             </p>
                         </div>
+                        <hr />
                     </div>
-                    <hr />
                     <div className="row item">
-                        <div className="twelve columns">
+                        <div className="eleven rows">
                             <h3><u>Borough of Manhattan Community College, CUNY</u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">A.S. in Computer Science <br /> <em className="date">August 2017 - May 2019</em></p>
@@ -44,11 +44,10 @@ export const resume = () => {
                                 <li> President (Spring 2019) & Secratary (Fall 2018) of Out in Two Club, an academic club focusing and helping on Out in Two scholars’ growth, network, and transfer process </li>
                             </p>
                         </div>
+                        <hr />
                     </div>
-
-                    <hr />
                     <div className="row item">
-                        <div className="twelve columns">
+                        <div className="eleven rows">
                             <h3><u><a href="https://codepath.org" target="_blank">CodePath iOS Course</a></u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info"> Spring 2021  <br /> <em className="date">January 2021 - May 2021</em></p>
@@ -62,11 +61,10 @@ export const resume = () => {
                                 <li> Networking Sending network requests, Downloading and caching remote images and Using Parse as a back-end</li>
                             </p>
                         </div>
+                        <hr />
                     </div>
-
-                    <hr />
                     <div className="row item">
-                        <div className="twelve columns">
+                        <div className="eleven rows">
                             <h3><u>Major League Hacking (MLH) Fellowship</u></h3>
                             <h4><i>Explorer Fellow</i></h4>
                             <h5 className="location"> New York, NY </h5>
@@ -80,12 +78,12 @@ export const resume = () => {
             </div>
 
             <div className="row certificates">
-                <div className="three columns header-col">
+                <div className="two columns header-col">
                     <h2><span>Certificates</span></h2>
                 </div>
-                <div className="nine columns main-col">
+                <div className="ten columns main-col">
                     <div className="row item">
-                        <div className="twelve columns">
+                        <div className="eleven rows">
                             <ul style={{ textAlign: 'left' }} className="google-python">
                                 <li>Crash Course on Python <a href="https://coursera.org/share/6344d6059e457649bd55f19744ea8fd3" target="_blank">(See Certificate)</a> </li>
                                 <li> Introduction to Git and GitHub <a href="https://www.coursera.org/account/accomplishments/certificate/HM46REP9H22C" target="_blank">(See Certificate)</a></li>
@@ -96,12 +94,12 @@ export const resume = () => {
             </div>
 
             <div className="row work">
-                <div className="three columns header-col">
+                <div className="two columns header-col">
                     <h2><span>Work</span></h2>
                 </div>
-                <div className="nine columns main-col">
+                <div className="ten columns main-col">
                     <div className="row item">
-                        <div className="twelve columns">
+                        <div className="eleven rows">
                             <h3><u>Pantsuit Professionals</u></h3>
                             <h5 className="location"> New York, NY (Remote) </h5>
                             <p className="info"> iOS Developer Intern <span>•</span> <em className="date">28 September, 2020 - Present</em></p>
@@ -109,9 +107,10 @@ export const resume = () => {
                                 <li> Work closely on UI/UX design with the iOS Engineering teams </li>
                             </p>
                         </div>
+                        <hr />
                     </div>
                     <div className="row item">
-                        <div className="twelve columns">
+                        <div className="eleven rows">
                             <h3><u><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></u></h3>
                             <h5 className="location"> Chicago, IL (Remote) </h5>
                             <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - 31 December 2020</em></p>
@@ -121,10 +120,10 @@ export const resume = () => {
                                 <li> Supported team members in building core web pages and fixing bugs in the website </li>
                             </p>
                         </div>
+                        <hr />
                     </div>
-                    <hr />
                     <div className="row item">
-                        <div className="twelve columns">
+                        <div className="eleven rows">
                             <h3><u>Apple Inc. - Apple Fifth Ave Store</u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">Specialist <span>•</span> <em className="date"> 5 October, 2019 - 16 July, 2020 </em></p>
@@ -135,10 +134,10 @@ export const resume = () => {
                                 <li> Provided support of all standard Apple applications and hardware, including hardware resets, password resets/setup, account setups, iCloud, iTunes, and App Store walkthroughs </li>
                             </p>
                         </div>
+                        <hr />
                     </div>
-                    <hr />
                     <div className="row item">
-                        <div className="twelve columns">
+                        <div className="eleven rows">
                             <h3><u>Borough of Manhattan Community College, CUNY</u></h3>
                             <h5 className="location"> New York, NY</h5>
                             <p className="info">College Assistant <span>•</span> <em className="date">01 January, 2018 - 22 May, 2019</em></p>
