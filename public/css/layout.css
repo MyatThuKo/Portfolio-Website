@@ -759,7 +759,7 @@ ul#nav li.current a { color: #ff0000 }
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #0d0d0d;
+   color: white;
    background: #1a1717;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to bottom, #1a1717, #0d0d0d);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to bottom, #1a1717, #0d0d0d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -768,7 +768,7 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #7a7878; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */

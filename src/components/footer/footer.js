@@ -12,7 +12,7 @@ export const footer = () => {
                     </ul>
                     <ul className="copyright">
                         <li>© Copyright 2021 Myat Thu Ko</li>
-                        <li>Design Credit to <a title="Styleshout" target="_blank" href="http://www.styleshout.com/">Styleshout</a></li>
+                        <li>Design Credit to <a title="Styleshout" target="_blank" href="https://www.styleshout.com/free-templates/ceevee/">Styleshout</a></li>
                     </ul>
                 </div>
                 <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
