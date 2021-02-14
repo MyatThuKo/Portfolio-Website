@@ -1,4 +1,5 @@
 import React from 'react';
+import firebase from '../about/firebase.png'
 
 export const about = () => {
     return (
@@ -32,7 +33,8 @@ export const about = () => {
                                         <img src="https://img.icons8.com/ios-filled/30/ffffff/swift.png" alt="swift" /> <span></span>
                                         <img src="https://img.icons8.com/ios-glyphs/30/ffffff/react.png" alt="react.js" /> <span></span>
                                         <img src="https://img.icons8.com/ios-filled/30/ffffff/python.png" alt="python" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/web.png" alt="web-dev" /> <span></span>
+                                        {/* <img src="https://img.icons8.com/ios-filled/30/ffffff/web.png" alt="web-dev" /> <span></span> */}
+                                        <img src={firebase} height="30" width="30" alt="firebase" />
                                     </div>
                                 </div>
                                 <div className="four columns">
