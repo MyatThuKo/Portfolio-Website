@@ -102,7 +102,7 @@ export const resume = () => {
                         <div className="eleven rows">
                             <h3><u>Pantsuit Professionals</u></h3>
                             <h5 className="location"> New York, NY (Remote) </h5>
-                            <p className="info"> iOS Developer Intern <span>•</span> <em className="date">28 September, 2020 - Present</em></p>
+                            <p className="info"> iOS Developer Intern <span>•</span> <em className="date">28 September, 2020 - February 2021</em></p>
                             <p className="description">
                                 <li> Work closely on UI/UX design with the iOS Engineering teams </li>
                             </p>
@@ -197,4 +197,4 @@ export const resume = () => {
     )
 }
 
-export default resume; 
+export default resume;
