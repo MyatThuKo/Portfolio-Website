@@ -74,13 +74,13 @@ export const about = () => {
                             <h2><span>Download Resume</span></h2>
                             <div className="row">
                                 <div className="four columns">
-                                    <a href="https://drive.google.com/file/d/1eLMwfcyyG2me-8RJ-IAFExKSi_XYrrVh/view?usp=sharing" target="_blank">
+                                    <a href="https://drive.google.com/file/d/1Mg1B4ROT-ko6ZzLU9oaoKdfF7SBWOhN4/view?usp=sharing" target="_blank">
                                         <img src="https://img.icons8.com/clouds/100/000000/pdf.png" alt="pdf download" />
                                     </a>
                                     PDF Download
                                 </div>
                                 <div className="four columns">
-                                    <a href="https://drive.google.com/file/d/1M2ImGEIBxmyH1z3Tewpf5xkn6G6i27nk/view?usp=sharing" target="_blank">
+                                    <a href="https://drive.google.com/file/d/1WowJUjxrX28bq40xd3F8ixe0BWEMNiKl/view?usp=sharing" target="_blank">
                                         <img src="https://img.icons8.com/clouds/100/000000/ms-word.png" alt="doc download" />
                                     </a>
                                     Word Doc Download
@@ -104,4 +104,4 @@ export const about = () => {
     )
 }
 
-export default about; 
+export default about;
