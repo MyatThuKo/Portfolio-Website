@@ -55,14 +55,14 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'librebaskerville-italic', monospace;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 18px/1.9em 'librebaskerville-regular', monospace;
    color: #b1b1b1;
    margin: 0 auto;
    width: 70%;
@@ -135,7 +135,7 @@ header .scrolldown a:hover { color: red; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 12px 'librebaskerville-bold', monospace;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -271,7 +271,7 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 #resume h1 {
-   font: 50px/56px 'librebaskerville-italic', Times, serif;
+   font: 50px/56px 'librebaskerville-italic', monospace;
    text-transform: uppercase;
    letter-spacing: 1px;
    color: white;
@@ -308,7 +308,7 @@ ul#nav li.current a { color: #ff0000 }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'librebaskerville-bold', monospace;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -321,7 +321,7 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 .education li {
-   font: 18px/24px Georgia, 'Times New Roman', Times, serif;
+   font: 18px/24px 'librebaskerville-regular', monospace;;
 }
 
 #resume .info {
@@ -331,7 +331,7 @@ ul#nav li.current a { color: #ff0000 }
    margin-top: 9px;
 }
 #resume h4 {
-   font-family: 'monospace', sans-serif;
+   font-family: 'librebaskerville-italic', monospace;
    color: white;
 }
 #resume .courses {
@@ -351,12 +351,12 @@ ul#nav li.current a { color: #ff0000 }
    /* color: black;  */
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 15px/24px 'opensans-regular', monospace;
    margin-top: 6px;
 }
 
 #resume .location {
-   font: 15px/24px 'monospace', sans-serif;
+   font: 15px/24px 'opensans-regular', monospace;
    margin-top: 6px;
 }
 
@@ -372,7 +372,7 @@ ul#nav li.current a { color: #ff0000 }
 
 #resume .flags p {
    text-align: center;
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'librebaskerville-regular', monospace;
    font-size: 20px;
    color: white;
 }
@@ -386,7 +386,7 @@ ul#nav li.current a { color: #ff0000 }
 }
 
 #resume .certificates .google-python {
-   font: 18px/24px Georgia, 'Times New Roman', Times, serif;
+   font: 18px/24px 'librebaskerville-regular', monospace;
    color: white;
    size: 15px;
 }
@@ -421,7 +421,7 @@ ul#nav li.current a { color: #ff0000 }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px 'librebaskerville-bold', monospace;
    color: #ffffff;
 	text-transform: uppercase;
    letter-spacing: 2px;
@@ -615,9 +615,6 @@ ul#nav li.current a { color: #ff0000 }
    background: #313131;
    background: -webkit-linear-gradient(to bottom, #313131, #1a1717);  
    background: linear-gradient(to bottom, #313131, #1a1717); 
-   /* background: #f7f715; 
-   background: -webkit-linear-gradient(to bottom, #f7f715, #037a13, #FF0000);  
-   background: linear-gradient(to bottom, #f7f715, #037a13, #FF0000); */
    padding-top: 10px;
    padding-bottom: 102px;
    color: white;
@@ -625,8 +622,7 @@ ul#nav li.current a { color: #ff0000 }
 #contact .section-head { margin-bottom: 40px; }
 
 #contact h1 {
-   font: 50px/56px 'librebaskerville-italic', Times, serif;
-   text-transform: uppercase;
+   font: 75px/1.1em 'librebaskerville-italic', monospace;
    letter-spacing: 1px;
    color: white;
    /* color: black; */
@@ -643,7 +639,7 @@ ul#nav li.current a { color: #ff0000 }
 #contact a:hover, #about a:focus { color: white; }
 
 #contact h3 {
-   font: 24px/30px 'librebaskerville-italic', Times, serif;
+   font: 24px/30px 'librebaskerville-italic', monospace;
    color: #ffffff;
    /* color: black; */
    padding-bottom: 10px;
@@ -657,10 +653,10 @@ ul#nav li.current a { color: #ff0000 }
 #contact p {
    color: white;
    font-weight: bold;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'librebaskerville-regular', monospace;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 18px/36px 'librebaskerville-regular', monospace;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -672,7 +668,7 @@ ul#nav li.current a { color: #ff0000 }
 /* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
-   font: 20px/24px 'opensans-bold', sans-serif;
+   font: 20px/24px 'librebaskerville-regular', monospace;
    margin: 12px 0;
    color: #EBEEEE;
    /* color: black; */
@@ -717,7 +713,7 @@ ul#nav li.current a { color: #ff0000 }
 	background: #fff;
 }
 #contact .after-submit {
-   font: 20px/40px 'Courier New', Courier, monospace;
+   font: 20px/40px 'librebaskerville-regular', monospace
 }
 #contact .after-submit p:hover {
    color: #037a13;
