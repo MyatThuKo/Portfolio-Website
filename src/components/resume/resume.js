@@ -101,10 +101,11 @@ export const resume = () => {
                     <div className="row item">
                         <div className="eleven rows">
                             <h3><u>Pantsuit Professionals</u></h3>
-                            <h5 className="location"> New York, NY (Remote) </h5>
+                            <h5 className="location"> Remote </h5>
                             <p className="info"> iOS Developer Intern <span>•</span> <em className="date">28 September, 2020 - February 2021</em></p>
                             <p className="description">
-                                <li> Work closely on UI/UX design with the iOS Engineering teams </li>
+                                <li> Cooperated with 3 iOS Developers to develop an iOS application using Swift (Storyboard) </li>
+                                <li> Worked closely with UI/UX team for the application design </li>
                             </p>
                         </div>
                         <hr />
@@ -112,7 +113,7 @@ export const resume = () => {
                     <div className="row item">
                         <div className="eleven rows">
                             <h3><u><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></u></h3>
-                            <h5 className="location"> Chicago, IL (Remote) </h5>
+                            <h5 className="location"> Remote </h5>
                             <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - 31 December 2020</em></p>
                             <p className="description">
                                 <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js framework </li>
