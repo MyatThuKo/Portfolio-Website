@@ -1,5 +1,6 @@
 import React from 'react';
-import firebase from '../about/firebase.png'
+import firebase from '../about/firebase.png';
+import mongodb from '../about/mongo.png';
 
 export const about = () => {
     return (
@@ -23,43 +24,115 @@ export const about = () => {
                             I will be spending 20 hours a week, collaborating with 15 team members to explore new technologies to build portfolio projects. I am also taking an iOS Course
                             offered by <a href="https://codepath.org/" target="_blank">CodePath</a>. In this program, I will be building iOS applications using Swift (Storyboard).
                         </p>
-                        <h2><span>Interests</span></h2>
-                        <p className="hobbies">
-                            <div className="row">
-                                <div className="four columns">
-                                    <h5>Programming Tools</h5>
-                                    <div>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/ios-logo.png" alt="ios" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/swift.png" alt="swift" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/react.png" alt="react.js" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/python.png" alt="python" /> <span></span>
-                                        {/* <img src="https://img.icons8.com/ios-filled/30/ffffff/web.png" alt="web-dev" /> <span></span> */}
-                                        <img src={firebase} height="30" width="30" alt="firebase" />
+                    </div>
+                    <h2><span>Interests</span></h2>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <div className="container-about">
+                            <div className="container">
+                                <h5>Programming Language </h5>
+                                <div className="icon-container">
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/c-plus-plus-logo.png" alt="C++" />
+                                        <p className="icon-name">C++</p>
                                     </div>
-                                </div>
-                                <div className="four columns">
-                                    <h5>Sports</h5>
-                                    <div>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/basketball.png" alt="basketball" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/football2.png" alt="football" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/badminton.png" alt="badminton" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/swimming.png" alt="swimming" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/table-tennis.png" alt="table-tennis" /> <span></span>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/python.png" alt="python" />
+                                        <p className="icon-name">Python</p>
                                     </div>
-                                </div>
-                                <div className="four columns">
-                                    <h5>Personal Wellness</h5>
-                                    <div>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/walking.png" alt="walking" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/meditation-guru.png" alt="meditation" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/easy-listening.png" alt="music" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/meal.png" alt="eating" /> <span></span>
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/communication.png" alt="communication" /> <span></span>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/swift.png" alt="swift" />
+                                        <p className="icon-name">Swift</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/html-5.png" alt="html" />
+                                        <p className="icon-name">HTML</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/css3.png" alt="css" />
+                                        <p className="icon-name">CSS</p>
                                     </div>
                                 </div>
                             </div>
-                        </p>
+                            <div className="container">
+                                <h5>Framework</h5>
+                                <div className="icon-container">
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/react.png" alt="react.js" />
+                                        <p className="icon-name">React.js</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/swiftui.png" alt="swiftui" />
+                                        <p className="icon-name">SwiftUI</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="container">
+                                <h5>Database</h5>
+                                <div className="icon-container">
+                                    <div className="icon">
+                                        <img src={firebase} height="30" width="30" alt="firebase" />
+                                        <p className="icon-name">Firebase</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src={mongodb} height="30" width="30" alt="mongodb" />
+                                        <p className="icon-name">MongoDB</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+                    <div style={{ display: 'flex' }}>
+                        <div className="container-about">
+                            <div className="container">
+                                <h5>Sports</h5>
+                                <div className="icon-container">
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/basketball.png" alt="basketball" />
+                                        <p className="icon-name">Basketball</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/football2.png" alt="football" />
+                                        <p className="icon-name">Soccer</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/badminton.png" alt="badminton" />
+                                        <p className="icon-name">Badminton</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/swimming.png" alt="swimming" />
+                                        <p className="icon-name">Swimming</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="container">
+                                <h5>Personal Wellness</h5>
+                                <div className="icon-container">
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/walking.png" alt="walking" />
+                                        <p className="icon-name">Walking</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/meditation-guru.png" alt="meditation" />
+                                        <p className="icon-name">Meditation</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/easy-listening.png" alt="music" />
+                                        <p className="icon-name">Music</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/meal.png" alt="eating" />
+                                        <p className="icon-name">Healthy Diet</p>
+                                    </div>
+                                    <div className="icon">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/communication.png" alt="communication" />
+                                        <p className="icon-name">Networking</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="row">
                         <div className="columns contact-details">
                             <h2><span>Contact Details</span></h2>
@@ -100,7 +173,7 @@ export const about = () => {
                     <img className="profile-pic" src="https://img.icons8.com/color/900/000000/myanmar-circular.png" alt="myanmar" />
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 

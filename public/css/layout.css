@@ -287,6 +287,32 @@ ul#nav li.current a { color: rgb(0, 140, 255) }
    padding: 3px;
 }
 
+.container-about {
+   display: flex;
+   justify-content: space-between;
+}
+
+.icon {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.icon-name {
+   padding: 5px;
+}
+
+.icon-container {
+    display:flex; 
+    justify-content: space-around;
+}
+
+.container {
+    display: flex; 
+    flex-direction: column; 
+    padding: 15px;
+}
+
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
