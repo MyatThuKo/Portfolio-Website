@@ -27,10 +27,10 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
+   height: auto;
+   min-height: 100px;
    width: 100%;
-   background: #161415 url(../images/red-background.jpg) no-repeat top center;
+   background: black url(../images/background-image.jpeg) center no-repeat;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -55,7 +55,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'librebaskerville-italic', monospace;
+   font: 80px/1.1em 'librebaskerville-italic', monospace;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -63,20 +63,55 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', monospace;
-   color: #b1b1b1;
+   color: white;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: rgb(255, 214, 32);
+}
+header .banner-text h2 a {
+   color: rgb(255, 214, 32);
+}
+header .banner-text h2 a:hover {
+   color: black;
 }
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
+}
+
+.banner-text h2 {
+   font: 32px/1.9em 'librebaskerville-italic', monospace;
+   color: white;
+   margin: 0 auto;
+   width: 70%;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+.coup-day {
+   font-family: 'librebaskerville-italic', monospace;
+   color: white;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.coup-flag .coup-text {
+   display: flex; 
+   flex-direction: row;
+   justify-content: baseline;
+}
+
+.about-me-container {
+   flex-direction: row;
+}
+
+.about-me-column {
+   flex-direction: column;
 }
 
 /* header logo */
@@ -98,9 +133,9 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: white; }
-header .social li a:hover { color: red; }
+header .social li a:hover { color: black; }
 
-.header-bio a:hover { color: red }
+.header-bio a:hover { color: rgb(43, 255, 0) }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -122,7 +157,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: red; }
+header .scrolldown a:hover { color: black; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -185,7 +220,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 /* ul#nav li.current a { color: rgb(35, 123, 211); } */
-ul#nav li.current a { color: #ff0000 }
+ul#nav li.current a { color: rgb(0, 140, 255) }
 
 .giphy-embed {
    position: relative;

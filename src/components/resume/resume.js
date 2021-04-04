@@ -23,6 +23,7 @@ export const resume = () => {
                             <p style={{ textAlign: 'left' }}>
                             </p>
                         </div>
+                        <br />
                         <hr />
                     </div>
                     <div className="row item">
@@ -44,6 +45,7 @@ export const resume = () => {
                                 <li> President (Spring 2019) & Secratary (Fall 2018) of Out in Two Club, an academic club focusing and helping on Out in Two scholars’ growth, network, and transfer process </li>
                             </p>
                         </div>
+                        <br />
                         <hr />
                     </div>
                     <div className="row item">
@@ -61,6 +63,7 @@ export const resume = () => {
                                 <li> Networking Sending network requests, Downloading and caching remote images and Using Parse as a back-end</li>
                             </p>
                         </div>
+                        <br />
                         <hr />
                     </div>
                     <div className="row item">
@@ -100,14 +103,30 @@ export const resume = () => {
                 <div className="ten columns main-col">
                     <div className="row item">
                         <div className="eleven rows">
+                            <h3><u>MarketFly LLC</u></h3>
+                            <h5 className="location"> Remote </h5>
+                            <p className="info"> Web Developer Intern <span>•</span> <em className="date">27 March, 2021 - Present</em></p>
+                            <p className="description">
+                                <li> Constructed a website with 4 web developer interns under supervision of 2 lead developer interns </li>
+                                <li> Accountable for frontend features and user-interface of the website </li>
+                                <li> Tools: React.js Framework, MongoDB, Visual Studio Code, GitHub </li>
+                            </p>
+                        </div>
+                        <br />
+                        <hr />
+                    </div>
+                    <div className="row item">
+                        <div className="eleven rows">
                             <h3><u>Pantsuit Professionals</u></h3>
                             <h5 className="location"> Remote </h5>
                             <p className="info"> iOS Developer Intern <span>•</span> <em className="date">28 September, 2020 - February 2021</em></p>
                             <p className="description">
-                                <li> Cooperated with 3 iOS Developers to develop an iOS application using Swift (Storyboard) </li>
+                                <li> Collaborated with 3 iOS Developers to develop an iOS application using Swift (Storyboard) </li>
                                 <li> Worked closely with UI/UX team for the application design </li>
+                                <li> Tools: Storyboard (Swift), Xcode,  GitHub </li>
                             </p>
                         </div>
+                        <br />
                         <hr />
                     </div>
                     <div className="row item">
@@ -119,8 +138,10 @@ export const resume = () => {
                                 <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js framework </li>
                                 <li> Acted as a liaison between the front-end and back-end teams and worked with both the interactivity and layout teams to implement features such as animation, bootstrap, and PayPal/Zoom APIs </li>
                                 <li> Supported team members in building core web pages and fixing bugs in the website </li>
+                                <li> Tools: React.js Framework, Visual Studio Code, GitHub </li>
                             </p>
                         </div>
+                        <br />
                         <hr />
                     </div>
                     <div className="row item">
@@ -135,6 +156,7 @@ export const resume = () => {
                                 <li> Provided support of all standard Apple applications and hardware, including hardware resets, password resets/setup, account setups, iCloud, iTunes, and App Store walkthroughs </li>
                             </p>
                         </div>
+                        <br />
                         <hr />
                     </div>
                     <div className="row item">
