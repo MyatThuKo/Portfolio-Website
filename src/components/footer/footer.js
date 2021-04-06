@@ -7,7 +7,7 @@ export const footer = () => {
                 <div className="twelve columns">
                     <ul className="social-links">
                         <li><a href="https://twitter.com/myatthu_ko" target="_blank"><i className="fa fa-twitter" /></a></li>
-                        <li><a href="https://www.linkedin.com/in/myat-thu-ko-089938178/" target="_blank"><i className="fa fa-linkedin" /></a></li>
+                        <li><a href="https://www.linkedin.com/in/myatthuko13/" target="_blank"><i className="fa fa-linkedin" /></a></li>
                         <li><a href="https://github.com/MyatThuKo" target="_blank"><i className="fa fa-github" /></a></li>
                     </ul>
                     <ul className="copyright">
