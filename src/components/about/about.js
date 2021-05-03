@@ -20,9 +20,18 @@ export const about = () => {
                         </p>
                         <h2><span>What I did and am currently doing</span></h2>
                         <p>
-                            Currently, I am participating in <a href="https://fellowship.mlh.io/" target="_blank">Major League Hacking Fellowship</a> (Explorer Track) where
-                            I will be spending 20 hours a week, collaborating with 15 team members to explore new technologies to build portfolio projects. I am also taking an iOS Course
-                            offered by <a href="https://codepath.org/" target="_blank">CodePath</a>. In this program, I will be building iOS applications using Swift (Storyboard).
+                            Currently, taking
+                            <li>
+                                <a href="https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui" target="_blank">Build iOS Apps with SwiftUI Course</a> (Codeacademy)
+                            </li>
+                            <li>
+                                <a href="https://www.codecademy.com/learn/paths/front-end-engineer-career-path" target="_blank">Front-End Engineer Course</a> (Codeacademy)
+                            </li>
+                            <li>
+                                <a href="https://courses.codepath.org/snippets/ios_university/syllabus" target="_blank">iOS Course in Swift Storyboard</a> (CodePath)
+                            </li>
+                            I just graduated from <a href="https://fellowship.mlh.io/" target="_blank">Major League Hacking Fellowship</a> (Explorer Track) where
+                            I spent around 20 hours a week while collaborating with 15 team members to explore new technologies and build portfolio projects.
                         </p>
                     </div>
                     <h2><span>Interests</span></h2>

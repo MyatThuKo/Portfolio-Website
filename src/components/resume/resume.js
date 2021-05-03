@@ -17,8 +17,9 @@ export const resume = () => {
                             <p className="info"> GPA - 3.86/4.0 <span>•</span> Expected graducation in May 2022 </p>
                             <p className="courses">
                                 Relevant Coursework - Algorithms <span className="lan">(C++)</span>
-                                | Intro to Programming <span className="lan">(Python)</span>
-                                | <br /> Writing for Engineering
+                                <br /> Intro to Programming <span className="lan">(Python | Jupyter Notebook)</span>
+                                <br /> Numerical Issues in Scientific Programming <span className="lan">(Python)</span>
+                                <br /> Software Design Laboratory <span className="lan">(Java)</span>
                             </p>
                             <p style={{ textAlign: 'left' }}>
                             </p>
@@ -34,8 +35,8 @@ export const resume = () => {
                             <p className="info"> GPA - 3.96/4.0 <span>•</span> Degree awarded on May 31, 2020 <span>•</span> Graduated with Honors </p>
                             <p className="courses">
                                 Relevant Coursework - Software Development <span className="lan">(HTML/CSS/PHP)</span>
-                                | Data Structure <span className="lan">(C++)</span>
-                                | Calculus 1, 2, 3
+                                <br /> Data Structure <span className="lan">(C++)</span>
+                                <br /> Calculus I, II, III
                             </p>
                             <p style={{ textAlign: 'left' }}>
                                 <li> Out in Two Scholarship recipient</li>
@@ -69,11 +70,13 @@ export const resume = () => {
                     <div className="row item">
                         <div className="eleven rows">
                             <h3><u>Major League Hacking (MLH) Fellowship</u></h3>
-                            <h4><i>Explorer Fellow</i></h4>
+                            <h4><i>Explorer Path</i></h4>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info"> Spring 2021  <br /> <em className="date">February 2021 - April 2021</em></p>
                             <p style={{ textAlign: 'left' }} className="courses">
-                                <li> Collaborate and explore new technologies to build portfolio projects </li>
+                                <li>Designed, tested, protyped and built a Google Chrome Extension, Search Savior to keep track of users' Google Chrome Tabs while browsing</li>
+                                <li>Explored into AR Gaming and collaborated with 2 pod members to create a Go-Board game using C# and Unity</li>
+                                <li>Researched about Data Ethics to work on a project that allows a user to control their accounts data and learned how to build a cross-platform mobile application using Flutter</li>
                             </p>
                         </div>
                     </div>
@@ -105,7 +108,7 @@ export const resume = () => {
                         <div className="eleven rows">
                             <h3><u>MarketFly LLC</u></h3>
                             <h5 className="location"> Remote </h5>
-                            <p className="info"> Web Developer Intern <span>•</span> <em className="date">27 March, 2021 - Present</em></p>
+                            <p className="info"> Web Developer Intern <span>•</span> <em className="date">March 27, 2021 - Present</em></p>
                             <p className="description">
                                 <li> Constructed a website with 4 web developer interns under supervision of 2 lead developer interns </li>
                                 <li> Accountable for frontend features and user-interface of the website </li>
@@ -119,7 +122,7 @@ export const resume = () => {
                         <div className="eleven rows">
                             <h3><u>Pantsuit Professionals</u></h3>
                             <h5 className="location"> Remote </h5>
-                            <p className="info"> iOS Developer Intern <span>•</span> <em className="date">28 September, 2020 - February 2021</em></p>
+                            <p className="info"> iOS Developer Intern <span>•</span> <em className="date">September 28, 2020 - February 28, 2021</em></p>
                             <p className="description">
                                 <li> Collaborated with 3 iOS Developers to develop an iOS application using Swift (Storyboard) </li>
                                 <li> Worked closely with UI/UX team for the application design </li>
@@ -133,7 +136,7 @@ export const resume = () => {
                         <div className="eleven rows">
                             <h3><u><a href="https://wecodeucate.org/" target="_blank">Codeucate</a></u></h3>
                             <h5 className="location"> Remote </h5>
-                            <p className="info">Software Developer Intern <span>•</span> <em className="date">17 July, 2020 - 31 December 2020</em></p>
+                            <p className="info">Software Developer Intern <span>•</span> <em className="date">July 17, 2020 - December 31, 2020</em></p>
                             <p className="description">
                                 <li> Migrated a WordPress website to a responsive and user-friendly multi-page HTML website using React.js framework </li>
                                 <li> Acted as a liaison between the front-end and back-end teams and worked with both the interactivity and layout teams to implement features such as animation, bootstrap, and PayPal/Zoom APIs </li>
@@ -148,7 +151,7 @@ export const resume = () => {
                         <div className="eleven rows">
                             <h3><u>Apple Inc. - Apple Fifth Ave Store</u></h3>
                             <h5 className="location"> New York, NY </h5>
-                            <p className="info">Specialist <span>•</span> <em className="date"> 5 October, 2019 - 16 July, 2020 </em></p>
+                            <p className="info">Specialist <span>•</span> <em className="date"> October 4, 2019 - July 16, 2020 </em></p>
                             <p className="description">
                                 <li> Collaborated with Technical Specialist from Genius Bar to execute basic troubleshooting on iOS devices and macOS computers  </li>
                                 <li> Approached potential customers and identified customer needs and preferences in a fast-paced environment </li>
