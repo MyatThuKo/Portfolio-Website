@@ -5,7 +5,7 @@ let resumeData = {
     "major": "Computer Science",
     "college": "City College of New York",
     "location": "New York, NY",
-    "dream": "Self-taught iOS Developer",
+    "dream": "iOS Developer",
     "schoolYear": "Rising junior",
     "favSport": "Soccer"
 }

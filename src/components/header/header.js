@@ -46,7 +46,7 @@ export default class Header extends Component {
                                 <div className="about-me-column column">
                                     <p>Academic Year - {resumeData.schoolYear}</p>
                                     <p>Favorite Sport - {resumeData.favSport}</p>
-                                    <p>Fun Fact - {resumeData.dream}</p>
+                                    <p>Dream - {resumeData.dream}</p>
                                 </div>
                             </div>
 
