@@ -55,13 +55,9 @@ export const resume = () => {
                             <h5 className="location"> New York, NY </h5>
                             <p className="info"> Spring 2021  <br /> <em className="date">January 2021 - May 2021</em></p>
                             <p style={{ textAlign: 'left' }} className="courses">
-                                Language used: <span className="lan"> Swift Storyboard </span>
-                                <br />Relevant Topics:
-                                <li> Views and View Controllers - View controller lifecycle, Using common views (buttons, labels, images) and Using table views and collection views</li>
-                                <li> Auto Layout - Basic Auto Layout and Auto Layout and table views</li>
-                                <li> Navigation - Modal and push navigation, Tab bar controllers and Passing data between view controllers</li>
-                                <li> Animation and Gestures - Lottie Animations and SkeletonViews</li>
-                                <li> Networking Sending network requests, Downloading and caching remote images and Using Parse as a back-end</li>
+                                <li>Built read-only movie browsing application similar to Rottern Tomatoes called Flixter</li>
+                                <li>Learned about Twitter API and features such as like, retweet, user login and logout by building a Twitter clone</li>
+                                <li>Explored features such as uploading photos to database, commenting under a post, login and logout features by completing read-write Instagram-style application assignment</li>
                             </p>
                         </div>
                         <br />
@@ -93,6 +89,7 @@ export const resume = () => {
                             <ul style={{ textAlign: 'left' }} className="google-python">
                                 <li>Crash Course on Python <a href="https://coursera.org/share/6344d6059e457649bd55f19744ea8fd3" target="_blank">(See Certificate)</a> </li>
                                 <li> Introduction to Git and GitHub <a href="https://www.coursera.org/account/accomplishments/certificate/HM46REP9H22C" target="_blank">(See Certificate)</a></li>
+                                <li>CodePath's iOS Course <a href="https://drive.google.com/file/d/1Fk1U6FlJN8gKRXrtGLdXuNmtDgjEyfl6/view?usp=sharing" target="_blank">(See Certificate)</a></li>
                             </ul>
                         </div>
                     </div>

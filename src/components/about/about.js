@@ -20,18 +20,10 @@ export const about = () => {
                         </p>
                         <h2><span>What I did and am currently doing</span></h2>
                         <p>
-                            Currently, taking
-                            <li>
-                                <a href="https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui" target="_blank">Build iOS Apps with SwiftUI Course</a> (Codeacademy)
-                            </li>
-                            <li>
-                                <a href="https://www.codecademy.com/learn/paths/front-end-engineer-career-path" target="_blank">Front-End Engineer Course</a> (Codeacademy)
-                            </li>
-                            <li>
-                                <a href="https://courses.codepath.org/snippets/ios_university/syllabus" target="_blank">iOS Course in Swift Storyboard</a> (CodePath)
-                            </li>
-                            I just graduated from <a href="https://fellowship.mlh.io/" target="_blank">Major League Hacking Fellowship</a> (Explorer Track) where
-                            I spent around 20 hours a week while collaborating with 15 team members to explore new technologies and build portfolio projects.
+                            I am currently taking "Interview Prep Course" from CodePath and
+                            learning SwiftUI by taking cs193p course from Stanford and 100 Days of SwiftUI challenge from Hacking with Swift. I am
+                            also building and preparing a platform where we will be providing free educational resources and courses to students in Myanmar.
+                            During Spring 2021, I graduated from CodePath's iOS Course at City College of New York with honors and MLH Fellowship (Explorer Track).
                         </p>
                     </div>
                     <h2><span>Interests</span></h2>
