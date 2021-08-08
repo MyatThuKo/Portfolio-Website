@@ -105,7 +105,7 @@ export const resume = () => {
                         <div className="eleven rows">
                             <h3><u>MarketFly LLC</u></h3>
                             <h5 className="location"> Remote </h5>
-                            <p className="info"> Web Developer Intern <span>•</span> <em className="date">March 27, 2021 - Present</em></p>
+                            <p className="info"> Web Developer Intern <span>•</span> <em className="date">March 27, 2021 - June 22, 2021</em></p>
                             <p className="description">
                                 <li> Constructed a website with 4 web developer interns under supervision of 2 lead developer interns </li>
                                 <li> Accountable for frontend features and user-interface of the website </li>
