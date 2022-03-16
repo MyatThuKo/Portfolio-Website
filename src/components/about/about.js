@@ -16,14 +16,13 @@ export const about = () => {
                             Hey there, I am Myat Thu Ko!! Thank you for visiting my portfolio.
                             I am an international student from<a href="https://en.wikipedia.org/wiki/Myanmar" target="_blank"> Myanmar</a>,
                             studying Computer Science at <a href="https://www.ccny.cuny.edu/" target="_blank">City College of New York</a>.
-                            I am residing at Brooklyn, NY and
+                            I am residing at Brooklyn, NY.
                         </p>
                         <h2><span>What I did and am currently doing</span></h2>
                         <p>
-                            I am currently taking "Interview Prep Course" from CodePath and
-                            learning SwiftUI by taking cs193p course from Stanford and 100 Days of SwiftUI challenge from Hacking with Swift. I am
-                            also building and preparing a platform where we will be providing free educational resources and courses to students in Myanmar.
-                            During Spring 2021, I graduated from CodePath's iOS Course at City College of New York with honors and MLH Fellowship (Explorer Track).
+                            I am currently attending a 10-week iOS Course at Hanko Academy and
+                            learning SwiftUI by doing 100 Days of SwiftUI challenge from Hacking with Swift.
+                            Currently looking for an entry-level iOS Developer position and iOS Developer Internship position.
                         </p>
                     </div>
                     <h2><span>Interests</span></h2>
@@ -33,16 +32,16 @@ export const about = () => {
                                 <h5>Programming Language </h5>
                                 <div className="icon-container">
                                     <div className="icon">
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/c-plus-plus-logo.png" alt="C++" />
-                                        <p className="icon-name">C++</p>
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/swift.png" alt="swift" />
+                                        <p className="icon-name">Swift</p>
                                     </div>
                                     <div className="icon">
                                         <img src="https://img.icons8.com/ios-filled/30/ffffff/python.png" alt="python" />
                                         <p className="icon-name">Python</p>
                                     </div>
                                     <div className="icon">
-                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/swift.png" alt="swift" />
-                                        <p className="icon-name">Swift</p>
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/c-plus-plus-logo.png" alt="C++" />
+                                        <p className="icon-name">C++</p>
                                     </div>
                                     <div className="icon">
                                         <img src="https://img.icons8.com/ios-filled/30/ffffff/html-5.png" alt="html" />
@@ -144,28 +143,11 @@ export const about = () => {
                                 <span> <a href="mailto:nymyatthuko@gmail.com"> nymyatthuko@gmail.com </a></span> <br />
                             </p>
                         </div>
-                        <div className="columns download">
-                            <h2><span>Download Resume</span></h2>
-                            <div className="row">
-                                <div className="four columns">
-                                    <a href="https://drive.google.com/file/d/1tnRzbCS-H4yG-w9sLuJLleKahc18S69e/view?usp=sharing" target="_blank">
-                                        <img src="https://img.icons8.com/clouds/100/000000/pdf.png" alt="pdf download" />
-                                    </a>
-                                    PDF Download
-                                </div>
-                                <div className="four columns">
-                                    <a href="https://drive.google.com/file/d/1TQKAuVVGSpPq7VW7rjbKL59A16i-hrai/view?usp=sharing" target="_blank">
-                                        <img src="https://img.icons8.com/clouds/100/000000/ms-word.png" alt="doc download" />
-                                    </a>
-                                    Word Doc Download
-                                </div>
-                                <div className="four columns">
-                                    <a href="https://github.com/MyatThuKo/" target="_blank">
-                                        <img src="https://img.icons8.com/clouds/100/000000/github.png" alt="github" />
-                                    </a>
-                                    GitHub
-                                </div>
-                            </div>
+                        <div className="two columns">
+                            <a href="https://drive.google.com/file/d/1Jr9mP1bJ9wquSKSK3hFi6cV8wYndMwHj/view?usp=sharing" target="_blank">
+                                <img src="https://img.icons8.com/clouds/100/000000/pdf.png" alt="pdf download" />
+                            </a>
+                            Resume Download
                         </div>
                     </div>
                     <h2> Scroll down to see my <a className="smoothscroll" href="#resume">Resume</a> </h2>

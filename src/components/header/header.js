@@ -68,7 +68,7 @@ export default class Header extends Component {
                                     start={0}
                                     end={this.state.currentDate}
                                     duration={5}
-                                />  Days since the start Military Coup in Myanmar... (Feb 1st, 2021)</h2>
+                                />  Days since the start of Military Coup in Myanmar on Feb 1, 2021</h2>
                         </div>
                     </div>
                 </div>

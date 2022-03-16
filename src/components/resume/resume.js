@@ -11,10 +11,21 @@ export const resume = () => {
                 <div className="ten columns main-col">
                     <div className="row item">
                         <div className="eleven rows">
+                            <h3><u>Hanko Academy</u></h3>
+                            <p className="info">Certificate <br /> <em className="date">March 2022 - Present</em></p>
+                            <p className="courses">
+                                10-week iOS Course (Programmatic Swift)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="ten columns main-col">
+                    <div className="row item">
+                        <div className="eleven rows">
                             <h3><u>City College of New York, CUNY</u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">B.S. in Computer Science <br /> <em className="date">August 2020 - Present</em></p>
-                            <p className="info"> GPA - 3.86/4.0 <span>•</span> Expected graducation in May 2022 </p>
+                            <p className="info"> GPA - 3.54/4.0 <span>•</span> Expected graducation in May 2023 </p>
                             <p className="courses">
                                 Relevant Coursework - Algorithms <span className="lan">(C++)</span>
                                 <br /> Intro to Programming <span className="lan">(Python | Jupyter Notebook)</span>
