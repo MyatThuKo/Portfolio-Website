@@ -589,12 +589,12 @@ ul#nav li.current a { color: rgb(0, 140, 255) }
 
 /* Programming Languages */
 .cpp {
-  	width: 75%;
+  	width: 50%;
   	-moz-animation: cpp 2s ease;
   	-webkit-animation: cpp 2s ease;
 }
 .swiftui {
-  	width: 65%;
+  	width: 90%;
   	-moz-animation: swiftui 2s ease;
   	-webkit-animation: swiftui 2s ease;
 }
@@ -609,7 +609,7 @@ ul#nav li.current a { color: rgb(0, 140, 255) }
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 75%;
+  	width: 65%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
@@ -621,11 +621,11 @@ ul#nav li.current a { color: rgb(0, 140, 255) }
 
 @-moz-keyframes cpp {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 50%;  }
 }
 @-moz-keyframes swiftui {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes react {
   0%   { width: 0px;  }
@@ -637,7 +637,7 @@ ul#nav li.current a { color: rgb(0, 140, 255) }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 65%;  }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
@@ -646,11 +646,11 @@ ul#nav li.current a { color: rgb(0, 140, 255) }
 
 @-webkit-keyframes cpp {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 50%;  }
 }
 @-webkit-keyframes swiftui {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes react {
   0%   { width: 0px;  }
@@ -662,7 +662,7 @@ ul#nav li.current a { color: rgb(0, 140, 255) }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 65%;  }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }

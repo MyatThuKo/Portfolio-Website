@@ -114,6 +114,18 @@ export const resume = () => {
                 <div className="ten columns main-col">
                     <div className="row item">
                         <div className="eleven rows">
+                            <h3><u>M1 Finance</u></h3>
+                            <h5 className="location"> Remote </h5>
+                            <p className="info"> Mobile Engineering Intern (iOS) <span>•</span> <em className="date">May 23, 2022 - Present</em></p>
+                            <p className="description">
+                                <li> Incoming iOS Dev intern </li>
+                            </p>
+                        </div>
+                        <br />
+                        <hr />
+                    </div>
+                    <div className="row item">
+                        <div className="eleven rows">
                             <h3><u>MarketFly LLC</u></h3>
                             <h5 className="location"> Remote </h5>
                             <p className="info"> Web Developer Intern <span>•</span> <em className="date">March 27, 2021 - June 22, 2021</em></p>
@@ -203,10 +215,10 @@ export const resume = () => {
                     <h2><span>Technical Skills</span></h2>
                     <div className="bars">
                         <ul className="skills">
+                            <li><span className="bar-expand swiftui" /><em>Swift</em></li>
                             <li><span className="bar-expand python" /><em>Python </em></li>
                             <li><span className="bar-expand cpp" /><em>C++</em></li>
                             <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                            <li><span className="bar-expand swiftui" /><em>SwiftUI</em></li>
                             <li><span className="bar-expand css" /><em>CSS</em></li>
                             <li><span className="bar-expand react" /><em>React.js</em></li>
                         </ul>
