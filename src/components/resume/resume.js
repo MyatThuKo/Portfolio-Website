@@ -11,17 +11,6 @@ export const resume = () => {
                 <div className="ten columns main-col">
                     <div className="row item">
                         <div className="eleven rows">
-                            <h3><u>Hanko Academy</u></h3>
-                            <p className="info">Certificate <br /> <em className="date">March 2022 - Present</em></p>
-                            <p className="courses">
-                                10-week iOS Course (Programmatic Swift)
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div className="ten columns main-col">
-                    <div className="row item">
-                        <div className="eleven rows">
                             <h3><u>City College of New York, CUNY</u></h3>
                             <h5 className="location"> New York, NY </h5>
                             <p className="info">B.S. in Computer Science <br /> <em className="date">August 2020 - Present</em></p>
@@ -33,6 +22,17 @@ export const resume = () => {
                                 <br /> Software Design Laboratory <span className="lan">(Java)</span>
                             </p>
                             <p style={{ textAlign: 'left' }}>
+                            </p>
+                        </div>
+                        <br />
+                        <hr />
+                    </div>
+                    <div className="row item">
+                        <div className="eleven rows">
+                            <h3><u>Hanko Academy</u></h3>
+                            <p className="info">Certificate <br /> <em className="date">March 2022 - May 2022</em></p>
+                            <p className="courses">
+                                10-week iOS Course (Programmatic Swift)
                             </p>
                         </div>
                         <br />
@@ -118,7 +118,20 @@ export const resume = () => {
                             <h5 className="location"> Remote </h5>
                             <p className="info"> Mobile Engineering Intern (iOS) <span>•</span> <em className="date">May 23, 2022 - Present</em></p>
                             <p className="description">
-                                <li> Incoming iOS Dev intern </li>
+                                <li> Incoming iOS software developer intern </li>
+                            </p>
+                        </div>
+                        <br />
+                        <hr />
+                    </div>
+                    <div className="row item">
+                        <div className="eleven rows">
+                            <h3><u>Nike NYC (House of Innovation) </u></h3>
+                            <h5 className="location"> New York, NY </h5>
+                            <p className="info"> Athlete <span>•</span> <em className="date">March 28, 2022 - May 21, 2022</em></p>
+                            <p className="description">
+                                <li> Guided and assisted customers with designing “Nike by You” products such as Air Force 1 and Nike Apparel </li>
+                                <li> Identified customers’ needs and provided excellent one-on-one customer experiences at the “Nike by You” workstation </li>
                             </p>
                         </div>
                         <br />
